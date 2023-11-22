@@ -1,6 +1,7 @@
 /*
 
 Author : Zishan Khan
+Date : 22/11/2023
 Problem : Symmetric Tree
 Difficulty : Easy
 Problem Link : https://www.geeksforgeeks.org/problems/symmetric-tree/1
