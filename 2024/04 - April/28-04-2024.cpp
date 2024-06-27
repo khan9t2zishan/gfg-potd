@@ -7,7 +7,6 @@ Difficulty : Easy
 Problem Link : https://www.geeksforgeeks.org/problems/delete-middle-of-linked-list/1
 
 */
-
 //{ Driver Code Starts
 #include <bits/stdc++.h> 
 using namespace std; 
@@ -46,8 +45,28 @@ class Solution{
     Node* deleteMid(Node* head)
     {
         // Your Code Here
+    if (head == nullptr || head->next == nullptr) {
+            delete head;
+            return nullptr; // No middle node to delete
+        }
+
+        Node* slow = head;
+        Node* fast = head->next->next;
+
+        while (fast && fast->next) {
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+
+        Node* del = slow->next;
+        slow->next = del->next;
+        delete del;
+
+        return head;
+        
     }
 };
+
 
 //{ Driver Code Starts.
 
