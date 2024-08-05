@@ -2,128 +2,119 @@
 
 Author : Zishan Khan 
 Date : 17/07/2024
-Problem : Bottom View of Binary Tree
+Problem : Construct Binary Tree from Parent Array
 Difficulty : Medium
-Problem Link : https://www.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
+Problem Link : https://www.geeksforgeeks.org/problems/construct-binary-tree-from-parent-array/1
 
 */
 
 //{ Driver Code Starts
 #include <bits/stdc++.h>
 using namespace std;
-#define MAX_HEIGHT 100000
 
-// Tree Node
-struct Node
-{
+struct Node {
     int data;
-    Node* left;
-    Node* right;
+    struct Node* left;
+    struct Node* right;
+
+    Node(int x) {
+        data = x;
+        left = right = NULL;
+    }
 };
 
-// Utility function to create a new Tree Node
-Node* newNode(int val)
-{
-    Node* temp = new Node;
-    temp->data = val;
-    temp->left = NULL;
-    temp->right = NULL;
-
-    return temp;
+void sort_and_print(vector<int>& v) {
+    sort(v.begin(), v.end());
+    for (int i = 0; i < v.size(); i++)
+        cout << v[i] << " ";
+    v.clear();
 }
 
+void printLevelOrder(struct Node* root) {
+    vector<int> v;
+    queue<Node*> q;
 
-vector <int> bottomView(Node *root);
+    q.push(root);
 
-// Function to Build Tree
-Node* buildTree(string str)
-{
-    // Corner Case
-    if(str.length() == 0 || str[0] == 'N')
-        return NULL;
+    Node* next_row = NULL;
 
-    // Creating vector of strings from input
-    // string after spliting by space
-    vector<string> ip;
+    while (!q.empty()) {
+        Node* n = q.front();
+        q.pop();
 
-    istringstream iss(str);
-    for(string str; iss >> str; )
-        ip.push_back(str);
-
-    // Create the root of the tree
-    Node* root = newNode(stoi(ip[0]));
-
-    // Push the root to the queue
-    queue<Node*> queue;
-    queue.push(root);
-
-    // Starting from the second element
-    int i = 1;
-    while(!queue.empty() && i < ip.size()) {
-
-        // Get and remove the front of the queue
-        Node* currNode = queue.front();
-        queue.pop();
-
-        // Get the current node's value from the string
-        string currVal = ip[i];
-
-        // If the left child is not null
-        if(currVal != "N") {
-
-            // Create the left child for the current node
-            currNode->left = newNode(stoi(currVal));
-
-            // Push it to the queue
-            queue.push(currNode->left);
+        if (n == next_row) {
+            sort_and_print(v);
+            next_row = NULL;
         }
 
-        // For the right child
-        i++;
-        if(i >= ip.size())
-            break;
-        currVal = ip[i];
+        v.push_back(n->data);
 
-        // If the right child is not null
-        if(currVal != "N") {
-
-            // Create the right child for the current node
-            currNode->right = newNode(stoi(currVal));
-
-            // Push it to the queue
-            queue.push(currNode->right);
+        if (n->left) {
+            q.push(n->left);
+            if (next_row == NULL)
+                next_row = n->left;
         }
-        i++;
+
+        if (n->right) {
+            q.push(n->right);
+            if (next_row == NULL)
+                next_row = n->right;
+        }
     }
-
-    return root;
+    sort_and_print(v);
 }
+
+Node* createTree(int parent[], int n);
+
+/* Driver program to test above function*/
 
 
 // } Driver Code Ends
-//Function to return a list containing the bottom view of the given tree.
+/* node structure  used in the program
+
+struct Node
+{
+    int data;
+    struct Node* left;
+    struct Node* right;
+
+    Node(int x){
+        data = x;
+        left = right = NULL;
+    }
+}; */
 
 class Solution {
   public:
-     void solve(Node *root,int x,int y,map<int,pair<int,int>>& mp){
-        //base case
-        if(root==NULL){
+    // Function to construct binary tree from parent array.
+   void createNode(vector<int> parent, int i, Node *created[], Node **root) {
+
+        if (created[i] != NULL)
+            return;
+        created[i] = new Node(i);
+        if (parent[i] == -1) {
+            *root = created[i];
             return;
         }
-        if(mp.find(x) == mp.end() || mp[x].first<=y)
-        mp[x]={y,root->data};
-        solve(root->left,x-1,y+1,mp);
-        solve(root->right,x+1,y+1,mp);
+        if (created[parent[i]] == NULL)
+            createNode(parent, parent[i], created, root);
+
+        Node *p = created[parent[i]];
+        if (p->left == NULL)
+            p->left = created[i];
+        else
+            p->right = created[i];
     }
-    vector <int> bottomView(Node *root) {
-        //codeGenius
-        map<int,pair<int,int>> mp;
-        solve(root,0,0,mp);
-        vector<int> ans;
-        for(auto it:mp){
-            ans.push_back(it.second.second);
-        }
-        return ans;
+    Node *createTree(vector<int> parent) {
+        int n = parent.size();
+        Node *created[n];
+        for (int i = 0; i < n; i++)
+            created[i] = NULL;
+
+        Node *root = NULL;
+        for (int i = 0; i < n; i++)
+            createNode(parent, i, created, &root);
+        return root;
     }
 };
 
@@ -131,22 +122,26 @@ class Solution {
 
 int main() {
     int t;
-    string tc;
-    getline(cin, tc);
-    t=stoi(tc);
-    while(t--)
-    {
-        string s ,ch;
-        getline(cin, s);
-        Node* root = buildTree(s);
+    cin >> t;
+    while (t--) {
+        int n;
+        cin >> n;
+        vector<int> a;
+        for (int i = 0; i < n; i++) {
+            int x;
+            cin >> x;
+            a.push_back(x);
+        }
+
         Solution ob;
-        vector <int> res = ob.bottomView(root);
-        for (int i : res) cout << i << " ";
+
+        Node* res = ob.createTree(a);
+
+        printLevelOrder(res);
         cout << endl;
     }
+
     return 0;
 }
-
-
 
 // } Driver Code Ends
