@@ -1,11 +1,13 @@
 /*
 
-Author : Zishan Khan
+Author : Zishan Khan 
+Date : 20/10/2024
 Problem : Nearest multiple of 10
 Difficulty : Easy
 Problem Link : https://www.geeksforgeeks.org/problems/nearest-multiple-of-102437/1
 
 */
+
 
 //{ Driver Code Starts
 #include <iostream>
