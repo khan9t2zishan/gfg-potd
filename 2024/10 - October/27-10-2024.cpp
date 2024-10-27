@@ -1,1 +1,63 @@
+/*
 
+Author : Zishan Khan 
+Date : 27/10/2024
+Problem : Triplet Family
+Difficulty : Basic
+Problem Link : https://www.geeksforgeeks.org/problems/triplet-family/1
+
+*/
+
+//{ Driver Code Starts
+#include <bits/stdc++.h>
+using namespace std;
+
+
+// } Driver Code Ends
+class Solution {
+  public:
+    bool findTriplet(vector<int>& arr) {
+        // Your code
+         sort(arr.begin(),arr.end(),greater<int>());
+        for(int i=0;i<arr.size();i++){
+            int target=arr[i];
+            int start=i+1;
+            int end=arr.size()-1;
+            while(start<end){
+                if(arr[start]+arr[end]==target) return true;
+                else if(arr[start]+arr[end]>target) start++;
+                else end--;
+            }
+        }
+        return false;
+    }
+};
+
+//{ Driver Code Starts.
+
+int main() {
+    string ts;
+    getline(cin, ts);
+    int t = stoi(ts);
+    while (t--) {
+        vector<int> arr;
+        string input;
+        getline(cin, input);
+        stringstream ss(input);
+        int number;
+        while (ss >> number) {
+            arr.push_back(number);
+        }
+        Solution obj;
+        bool res = obj.findTriplet(arr);
+        if (res)
+            cout << "true" << endl;
+        else
+            cout << "false" << endl;
+        // cout << res << endl;
+        cout << "~" << endl;
+    }
+    return 0;
+}
+
+// } Driver Code Ends
