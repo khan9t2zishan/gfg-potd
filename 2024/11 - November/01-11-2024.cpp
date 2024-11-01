@@ -1,9 +1,9 @@
 /*
 
 Author : Zishan Khan 
-Date : 02/07/2023
-Problem : Copy Set Bits in Range
+Date : 01/11/2024
+Problem : Swap and Maximize
 Difficulty : Easy
-Problem Link : https://practice.geeksforgeeks.org/problems/copy-set-bits-in-range0623/1
+Problem Link : https://www.geeksforgeeks.org/problems/swap-and-maximize5859/1
 
 */
