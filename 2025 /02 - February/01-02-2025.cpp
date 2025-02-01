@@ -20,7 +20,7 @@ class Solution {
         return false;
     }
     bool isWordExist(vector<vector<char>>& mat, string& word) {
-        //CodeGenius
+        
         int n=mat.size();
         int m=mat[0].size();
         vector<vector<bool>>vis(n,vector<bool>(m,false));
