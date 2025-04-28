@@ -2,7 +2,7 @@
 // Initial Template for C++   
 
 #include <bits/stdc++.h>
-using namespace std;
+using namespace std; 
 
 // Tree Node
 struct Node {
