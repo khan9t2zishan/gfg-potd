@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-/* Link list Node */
+/* Link list Node */ 
 class Node {
   public:
     int data;
