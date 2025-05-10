@@ -44,7 +44,7 @@ int main() {
         getline(cin, input);
         stringstream ss(input);
         int number;
-        while (ss >> number) {
+        while (ss >> number) { 
             arr.push_back(number);
         }
         getline(cin, input);
