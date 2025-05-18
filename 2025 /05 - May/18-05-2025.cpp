@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Tree Node
+// Tree Node 
 class Node { 
   public:
     int data;
