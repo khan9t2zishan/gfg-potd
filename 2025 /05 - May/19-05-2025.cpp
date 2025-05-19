@@ -1,7 +1,7 @@
 //{ Driver Code Starts
 // C++ program to find predecessor and successor in a BST
 #include "bits/stdc++.h"
-using namespace std; 
+using namespace std;  
 
 // BST Node
 class Node {
