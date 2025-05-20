@@ -13,7 +13,7 @@ class Node {
 */
 class Solution {
   public:
-    int minTime(Node* root, int target) {
+    int minTime(Node* root, int target) { 
         // code here
         deque<pair<Node*, int>> q = {{root, -1}};
         unordered_map<Node*, Node*> parent;
