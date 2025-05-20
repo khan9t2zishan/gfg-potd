@@ -22,7 +22,7 @@ class Solution {
         Node* node = nullptr;
         while(!q.empty()){
             node = q.front().first;
-            q.pop_front();
+            q.pop_front(); 
             if(node->data == target)tar = node;
             if(node->left){
                 q.push_back({node->left, -1});
