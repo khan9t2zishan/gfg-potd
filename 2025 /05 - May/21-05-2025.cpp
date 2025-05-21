@@ -4,7 +4,7 @@ class Solution {
       int col=0;
       int row=m-1;
       int count=0;
-      while(col<n && row>=0){
+      while(col<n && row>=0){ 
           if((row+1)*(col+1)<=mid){
               count+=row+1;
               col++;
