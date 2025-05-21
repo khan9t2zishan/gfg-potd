@@ -1,6 +1,6 @@
 class Solution {
   public:
-     int countElementLessThanMid(int &mid,int m,int n){ 
+     int countElementLessThanMid(int &mid,int m,int n){  
       int col=0;
       int row=m-1;
       int count=0;
