@@ -2,7 +2,7 @@ class Solution {
   public:
    int minDeletions(string s1) {
         // code here
-        int n=s1.length();
+        int n=s1.length(); 
         vector<vector<int>> dp(n+1,vector<int>(n+1,0));
         string s2=s1;
         reverse(s2.begin(), s2.end());
