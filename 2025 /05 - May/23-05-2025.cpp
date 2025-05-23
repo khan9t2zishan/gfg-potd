@@ -1,5 +1,5 @@
 class Solution { 
-  public:  
+  public:   
    int solve(int m,int n, int x,  
     vector<vector<int>>&dp){
         if(x>0 && x<=m && n==1){
