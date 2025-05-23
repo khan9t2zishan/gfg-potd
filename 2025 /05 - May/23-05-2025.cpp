@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
   public:  
    int solve(int m,int n, int x, 
     vector<vector<int>>&dp){
