@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int sumSubstrings(string &s) {
+    int sumSubstrings(string &s) { 
         // code here
          int n=s.length(), ans=0;
         for(int i=0; i<n; i++){ 
