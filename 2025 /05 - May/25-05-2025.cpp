@@ -1,7 +1,7 @@
 class Solution {
   public:
     bool pythagoreanTriplet(vector<int>& arr) {  
-        // code here
+        // code here 
               int n = arr.size();
         for(auto &it:arr)it *= it;
         sort(arr.begin(), arr.end());
