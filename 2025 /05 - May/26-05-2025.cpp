@@ -1,5 +1,5 @@
 /* structure for a node
-class Node {
+class Node { 
  public:
   int data;
   Node *next;
