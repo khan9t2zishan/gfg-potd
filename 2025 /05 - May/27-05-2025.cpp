@@ -2,7 +2,7 @@ class Solution {
   public:
       vector<int> leafNodes(vector<int>& preorder) {
         int n = preorder.size();
-        vector<int> res;
+        vector<int> res; 
         stack<int> st;
         st.push(preorder[0]);
         for(int i = 1; i < n; i++){
