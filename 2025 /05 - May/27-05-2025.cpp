@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
       vector<int> leafNodes(vector<int>& preorder) { 
         int n = preorder.size();
         vector<int> res; 
