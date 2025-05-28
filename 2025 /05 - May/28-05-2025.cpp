@@ -1,6 +1,6 @@
 class Solution {
   public:
-    bool ValidCorner(vector<vector<int> >& mat) { 
+    bool ValidCorner(vector<vector<int> >& mat) {  
         // code here 
            int n = mat.size();
         int m = mat[0].size();
