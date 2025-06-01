@@ -1,7 +1,7 @@
 class Solution {
   public:
    int countPairs(vector<vector<int>> &mat1, vector<vector<int>> &mat2, int x) {
-        int n = mat1.size();
+        int n = mat1.size(); 
         int total = n * n; 
     
         int p1 = 0, p2 = total - 1; 
