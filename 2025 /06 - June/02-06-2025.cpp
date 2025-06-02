@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     int uniquePaths(vector<vector<int>> &grid) {
         // code here
            int n = grid.size();
