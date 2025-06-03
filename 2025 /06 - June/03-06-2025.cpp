@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int countSubstr(string& s, int k) {
+    int countSubstr(string& s, int k) { 
         // code here.  
           int result{};
     for (size_t i{}, len(s.length()); i < len; i++) {
