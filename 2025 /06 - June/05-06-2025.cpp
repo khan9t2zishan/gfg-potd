@@ -4,7 +4,7 @@ class Solution {
       if(node==dest) return 1;
       if(dp[node]!=-1) return dp[node];
       int ans=0;
-      for(auto child:adj[node]){
+      for(auto child:adj[node]){ 
           ans=ans+dfs(child,adj,dest,dp);
       }
       return dp[node]=ans;
