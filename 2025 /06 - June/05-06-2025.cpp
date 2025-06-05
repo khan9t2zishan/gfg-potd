@@ -2,7 +2,7 @@ class Solution {
   public:
      int dfs(int node,vector<vector<int>>&adj,int dest,vector<int>&dp){
       if(node==dest) return 1;
-      if(dp[node]!=-1) return dp[node];
+      if(dp[node]!=-1) return dp[node]; 
       int ans=0;
       for(auto child:adj[node]){ 
           ans=ans+dfs(child,adj,dest,dp);
