@@ -4,7 +4,7 @@ class Solution {
         int n = txt.length();
         int m = pat.length();
         
-        vector <int> ans;
+        vector <int> ans; 
         vector <int> freqPt(26, 0);
         vector <int> freqTxt(26, 0);
         
