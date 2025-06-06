@@ -1,6 +1,6 @@
 class Solution {
   public:
-    vector<int> search(string &pat, string &txt) {
+    vector<int> search(string &pat, string &txt) { 
         int n = txt.length();
         int m = pat.length();
         
