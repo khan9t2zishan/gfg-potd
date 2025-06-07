@@ -5,7 +5,7 @@ class Solution {
          int n=a1.size();
         unordered_map<int, int>mpp;
         int sum=0;
-        int maxi=0;
+        int maxi=0; 
         
         mpp[0]=-1;
         
