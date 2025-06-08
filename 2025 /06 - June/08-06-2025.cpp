@@ -6,7 +6,7 @@ class Solution {
         int i = a.size() - 1;  
         int j = b.size() - 1;  
         int carry = 0;
-        
+         
         // Digit-wise addition from right to left
         while (i >= 0 || j >= 0 || carry > 0) {
             int digitA = (i >= 0) ? a[i--] - '0' : 0;
