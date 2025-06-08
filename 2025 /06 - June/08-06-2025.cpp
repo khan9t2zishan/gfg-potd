@@ -4,7 +4,7 @@ class Solution {
     string getAdd(string &a, string &b) {
         string result = "";
         int i = a.size() - 1;
-        int j = b.size() - 1;
+        int j = b.size() - 1; 
         int carry = 0;
         
         // Digit-wise addition from right to left
