@@ -3,7 +3,7 @@ class Solution {
      // Helper function to add two numbers represented as strings
     string getAdd(string &a, string &b) {
         string result = "";
-        int i = a.size() - 1; 
+        int i = a.size() - 1;  
         int j = b.size() - 1;  
         int carry = 0;
         
