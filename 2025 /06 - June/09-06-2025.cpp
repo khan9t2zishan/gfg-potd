@@ -9,7 +9,7 @@ class Node
         data = x; 
         left = NULL;
         right = NULL;
-    }
+    } 
 };*/
 
 class Solution {
