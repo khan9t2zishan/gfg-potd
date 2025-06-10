@@ -5,7 +5,7 @@ class Solution {
         int n = s.size(), ans = 0;
         bool dup = false;
         unordered_map<char, int> m;
-        for(char &i: s) m[i]++;
+        for(char &i: s) m[i]++; 
         for(char &i: s)
         {
             if(m[i] > 1) dup = true;
