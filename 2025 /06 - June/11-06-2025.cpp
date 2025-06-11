@@ -3,7 +3,7 @@ class Solution {
     int findLength(vector<int> &color, vector<int> &radius) {
         // code here 
         vector<int> balls;
-        int n = color.size();
+        int n = color.size(); 
         for(int i=0;i<n;i++){ 
             if(balls.empty()) balls.push_back(i);
             else{
