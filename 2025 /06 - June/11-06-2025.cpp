@@ -4,7 +4,7 @@ class Solution {
         // code here 
         vector<int> balls;
         int n = color.size();
-        for(int i=0;i<n;i++){
+        for(int i=0;i<n;i++){ 
             if(balls.empty()) balls.push_back(i);
             else{
                 int ind = balls.back();
