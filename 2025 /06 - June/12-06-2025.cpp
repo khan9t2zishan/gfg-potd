@@ -2,10 +2,7 @@ class Solution {
   public:
     vector<int> printKClosest(vector<int> arr, int k, int x) {
         // Code here
-        
            vector<int>ans;
-        
-        
         vector<pair<int,int>>pq;
         for(auto it:arr)
         {
@@ -15,8 +12,6 @@ class Solution {
             pq.push_back({abs(x-it),it});
         }
         
-        
-        
         sort(pq.begin(),pq.end(),[](pair<int,int>&it1,pair<int,int>&it2)
         {
             
@@ -25,8 +20,6 @@ class Solution {
             return it1.first<it2.first;
         });
         int c=0;
-
- 
 
 for(int i=0;i<k& i<pq.size();i++)
 {
