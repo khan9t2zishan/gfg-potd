@@ -3,7 +3,7 @@ class Solution {
     vector<int> printKClosest(vector<int> arr, int k, int x) {
         // Code here
            vector<int>ans;
-        vector<pair<int,int>>pq;
+        vector<pair<int,int>>pq; 
         for(auto it:arr)
         {
             if(it==x) 
