@@ -6,7 +6,7 @@ class Solution {
         vector<pair<int,int>>pq;
         for(auto it:arr)
         {
-            if(it==x)
+            if(it==x) 
             continue;
             
             pq.push_back({abs(x-it),it});
