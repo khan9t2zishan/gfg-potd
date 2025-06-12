@@ -4,7 +4,7 @@ class Solution {
         // Code here
            vector<int>ans;
         vector<pair<int,int>>pq; 
-        for(auto it:arr)
+        for(auto it:arr) 
         {
             if(it==x) 
             continue;
