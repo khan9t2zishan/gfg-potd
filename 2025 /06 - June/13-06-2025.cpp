@@ -9,7 +9,7 @@ class Solution {
             if(quant ==0)   temp-=1;
             else{
                 if(rem!=0)
-                    temp -= (quant+1);
+                    temp -= (quant+1); 
                 else{
                     temp -= quant;
                 }
