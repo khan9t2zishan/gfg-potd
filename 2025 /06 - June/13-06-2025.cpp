@@ -5,7 +5,7 @@ class Solution {
         for(int i=0;i<n;i++){
             int quant = arr[i]/mid; 
             int rem = arr[i]%mid;
-            
+             
             if(quant ==0)   temp-=1;
             else{
                 if(rem!=0)
