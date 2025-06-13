@@ -3,7 +3,7 @@ class Solution {
        bool possible(vector<int> &arr,int n, int k,int mid){
         int temp=k;  
         for(int i=0;i<n;i++){
-            int quant = arr[i]/mid;
+            int quant = arr[i]/mid; 
             int rem = arr[i]%mid;
             
             if(quant ==0)   temp-=1;
