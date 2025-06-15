@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int smallestDivisor(vector<int>& arr, int k) {
+    int smallestDivisor(vector<int>& arr, int k) { 
         // Code here
           int n = arr.size();
         // Initialize binary search bounds 
