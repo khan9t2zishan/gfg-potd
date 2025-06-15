@@ -3,7 +3,7 @@ class Solution {
     int smallestDivisor(vector<int>& arr, int k) {
         // Code here
           int n = arr.size();
-        // Initialize binary search bounds
+        // Initialize binary search bounds 
         int low = 1; // Smallest possible divisor
         int high = *max_element(arr.begin(), arr.end()); // Largest possible divisor needed
         int ans = 1e9; // Initialize answer with a large value
