@@ -1,7 +1,7 @@
 class Solution {
   public:
     int smallestDivisor(vector<int>& arr, int k) { 
-        // Code here
+        // Code here 
           int n = arr.size();
         // Initialize binary search bounds 
         int low = 1; // Smallest possible divisor
