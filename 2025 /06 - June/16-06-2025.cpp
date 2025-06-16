@@ -2,7 +2,7 @@ class Solution {
   public:
     int minCost(vector<int>& heights, vector<int>& cost) {
         // code here 
-         int n = heights.size();
+         int n = heights.size(); 
         vector<int> idx(n);
         iota(idx.begin(), idx.end(), 0);
         sort(idx.begin(), idx.end(), [&heights](const int &a, const int &b) {
