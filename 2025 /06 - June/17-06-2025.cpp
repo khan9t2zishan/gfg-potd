@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int minimumCoins(vector<int>& arr, int k) {
+    int minimumCoins(vector<int>& arr, int k) { 
         // code here
         int n = arr.size();  
         vector<int> prefix(n,0);
