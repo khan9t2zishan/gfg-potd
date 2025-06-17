@@ -4,7 +4,7 @@ class Solution {
         // code here
         int n = arr.size();
         vector<int> prefix(n,0);
-        sort(arr.begin(), arr.end());
+        sort(arr.begin(), arr.end()); 
         partial_sum(arr.begin(), arr.end(),prefix.begin());
         int ans = INT_MAX;
         int prev = 0;
