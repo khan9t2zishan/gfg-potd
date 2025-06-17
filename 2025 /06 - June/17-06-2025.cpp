@@ -2,7 +2,7 @@ class Solution {
   public:
     int minimumCoins(vector<int>& arr, int k) {
         // code here
-        int n = arr.size(); 
+        int n = arr.size();  
         vector<int> prefix(n,0);
         sort(arr.begin(), arr.end()); 
         partial_sum(arr.begin(), arr.end(),prefix.begin());
