@@ -1,6 +1,6 @@
 class Solution {
   public:
-     bool ispalindrome(string&s){
+     bool ispalindrome(string&s){ 
         int i=0;   
         int j=s.size()-1;
         while(i<j){
