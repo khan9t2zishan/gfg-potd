@@ -5,7 +5,7 @@ class Solution {
         string hi = "", lo = "";
         for(auto x:s){ 
             if(isupper(x)) hi += x;
-            else lo += x;
+            else lo += x; 
         }
         sort(hi.begin(),hi.end());
         sort(lo.begin(),lo.end());
