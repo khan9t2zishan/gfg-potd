@@ -3,7 +3,7 @@ class Solution {
     string caseSort(string& s) {
         // code here
         string hi = "", lo = "";
-        for(auto x:s){
+        for(auto x:s){ 
             if(isupper(x)) hi += x;
             else lo += x;
         }
