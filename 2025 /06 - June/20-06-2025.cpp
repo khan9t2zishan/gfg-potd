@@ -3,7 +3,7 @@ class Solution {
     bool validgroup(vector<int> &arr, int k) {
         // code here
          unordered_map<int, int> mp;
-        int n = arr.size();
+        int n = arr.size(); 
         
         for (auto it: arr){
             mp[it]++;
