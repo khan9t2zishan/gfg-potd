@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int catchThieves(vector<char> &arr, int k) {
+    int catchThieves(vector<char> &arr, int k) { 
         // Code here
            int n = arr.size();
         queue<int>q;
