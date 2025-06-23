@@ -1,5 +1,5 @@
 class Solution { 
-  public:
+  public: 
     string minSum(vector<int> &arr) {
         // code here 
         sort(arr.begin(), arr.end()); 
