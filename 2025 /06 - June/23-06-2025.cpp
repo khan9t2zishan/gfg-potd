@@ -1,8 +1,8 @@
-class Solution {
+class Solution { 
   public:
     string minSum(vector<int> &arr) {
         // code here
-        sort(arr.begin(), arr.end());
+        sort(arr.begin(), arr.end()); 
         string num1 = "", num2 = "";
         int i = 0;
         while(i < arr.size())
