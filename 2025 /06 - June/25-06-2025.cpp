@@ -3,7 +3,7 @@ class Solution {
     bool sameFreq(string& s) {
         // code here
         vector<int> mp(26, 0); 
-        for(char ch : s) mp[ch - 'a']++;
+        for(char ch : s) mp[ch - 'a']++; 
         unordered_set<int> ss;
         int mx = 0, mn = 100000;
         unordered_map<int, int> freq;
