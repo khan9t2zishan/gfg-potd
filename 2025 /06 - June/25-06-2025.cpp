@@ -1,7 +1,7 @@
 class Solution {
   public:
     bool sameFreq(string& s) {
-        // code here
+        // code here 
         vector<int> mp(26, 0);  
         for(char ch : s) mp[ch - 'a']++; 
         unordered_set<int> ss; 
