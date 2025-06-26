@@ -2,7 +2,7 @@ class Solution {
   public:
     int minValue(string &s, int k) { 
         // code here
-           vector<int> dp(26, 0);
+           vector<int> dp(26, 0); 
         for(auto &e : s){
             dp[e - 'a']++;
         }
