@@ -1,7 +1,7 @@
 class Solution {
   public:
      int Solve(int x,int y,vector<vector<char>>&num,int n,vector<vector<vector<int>>>&dp){
-      if(n==1)
+      if(n==1) 
       return 1;
       if(dp[x][y][n]!=-1)
       return dp[x][y][n];
