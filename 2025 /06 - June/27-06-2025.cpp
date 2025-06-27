@@ -4,7 +4,7 @@ class Solution {
       if(n==1) 
       return 1;   
       if(dp[x][y][n]!=-1)
-      return dp[x][y][n];
+      return dp[x][y][n]; 
       int ans=0;
       ans+=Solve(x,y,num,n-1,dp);
       int xaxis[]={1,0,-1,0};
