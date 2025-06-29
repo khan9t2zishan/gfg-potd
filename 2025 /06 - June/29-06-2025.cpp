@@ -4,7 +4,7 @@ class Solution {
        int s = 0 ; 
        for(int i : arr){
            s += i ;
-           if(s > sum){
+           if(s > sum){ 
                k -- ; s = i ;
            }
        }
