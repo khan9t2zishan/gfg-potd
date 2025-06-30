@@ -7,7 +7,7 @@ class Solution {
         for(int i = 0 ; i < n ; i ++){
             if(arr[i] < h){
                 int req = max(0 , h - arr[i] - curr) ;
-                res += req ; 
+                res += req ;  
                 curr += req ;
                 if(i + w - 1 < n) temp[i + w - 1] = -1*req ;
             }
