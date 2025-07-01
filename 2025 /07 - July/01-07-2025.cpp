@@ -5,7 +5,7 @@ class Solution {
         unordered_map<char,int>alp; 
         int n = s.size();
         string str = "";
-        int ans = 0;
+        int ans = 0; 
         for(int i = 0 ; i<n;  i++){
             str+=s[i];
             alp[s[i]]++;
