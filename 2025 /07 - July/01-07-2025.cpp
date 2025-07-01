@@ -3,7 +3,7 @@ class Solution {
     int substrCount(string &s, int k) {
         // code here
         unordered_map<char,int>alp; 
-        int n = s.size();
+        int n = s.size(); 
         string str = "";
         int ans = 0; 
         for(int i = 0 ; i<n;  i++){
