@@ -5,7 +5,7 @@ class Solution {
         int n = arr.size();
         int i = 0;
         unordered_map<int, int> mp;
-        int res = 0;
+        int res = 0; 
         int start = 0;
         while(i < n){
             mp[arr[i]]++;
