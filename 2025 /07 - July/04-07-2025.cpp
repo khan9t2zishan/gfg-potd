@@ -3,7 +3,7 @@ class Solution {
     int countAtMostK(vector<int> &arr, int k) {
         // code here
         unordered_map<int, int> mp;
-        int l = 0; 
+        int l = 0;  
         int n = arr.size();
         int distinct_count = 0;
         int not_distinct_subarr = 0;
