@@ -3,7 +3,7 @@ class Solution {
     int maxSum(vector<int> &arr) {
         // code here
          
-              int n =arr.size();
+              int n =arr.size(); 
               
                int total =0;
               for(int i=0;i<n-1;i++){
