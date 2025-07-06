@@ -3,7 +3,7 @@ class Solution {
     vector<int> topKSumPairs(vector<int>& a, vector<int>& b, int k) {
         // code here
         int n=a.size(), m=b.size();
-        sort(a.begin(), a.end(), greater<int>());
+        sort(a.begin(), a.end(), greater<int>()); 
         sort(b.begin(), b.end(), greater<int>()); 
         
         priority_queue<int, vector<int>, greater<int>>pq;
