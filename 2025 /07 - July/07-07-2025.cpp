@@ -5,7 +5,7 @@ class Solution {
     int N = arr.size();
         vector<int> NGE(N,0); 
         stack<int> st;
-        int i = (2*N)-1;
+        int i = (2*N)-1; 
         
         while(i >= 0)
         {
