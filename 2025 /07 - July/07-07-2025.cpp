@@ -3,7 +3,7 @@ class Solution {
     vector<int> nextLargerElement(vector<int> &arr) {
         // code here
     int N = arr.size();
-        vector<int> NGE(N,0);
+        vector<int> NGE(N,0); 
         stack<int> st;
         int i = (2*N)-1;
         
