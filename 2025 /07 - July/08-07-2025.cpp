@@ -4,7 +4,7 @@ class Solution {
         // code here
               int n = arr.size();
         map<int, int> freq;
-
+ 
         for (auto it : arr) {
             freq[it]++;
         }
