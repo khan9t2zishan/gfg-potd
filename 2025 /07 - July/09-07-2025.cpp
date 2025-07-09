@@ -2,7 +2,7 @@ class Solution {
   public:
     int sumSubMins(vector<int> &arr) {
         // code here 
-          int n= arr.size(); 
+          int n= arr.size();  
          
         vector<int> left(n, -1);
         vector<int> right(n, -1);
