@@ -1,6 +1,6 @@
 class Solution {
   public:
-    string longestString(vector<string> &words) { 
+    string longestString(vector<string> &words) {  
         // code here
         sort(words.begin(), words.end());
         unordered_map<string, int>ump;
