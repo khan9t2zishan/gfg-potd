@@ -3,7 +3,7 @@ class Solution {
     int countConsec(int n) {
         // code here
            if(n<2) return 0;
-        int a=2, b=3; 
+        int a=2, b=3;  
          
         for(int i=3; i<=n; i++){
             int tmp = a+b;
