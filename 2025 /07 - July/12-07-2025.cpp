@@ -2,7 +2,7 @@ class Solution {
   public:
    bool isSafe(int i, int j, int n, int m)  
     {  
-        return (i>=0 && j>=0 && i<n && j<m);  
+        return (i>=0 && j>=0 && i<n && j<m);   
     } 
  
     int dfs(int i, int j, int n, int m, vector<vector<int>> &mat, 
