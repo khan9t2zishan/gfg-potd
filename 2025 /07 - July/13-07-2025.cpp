@@ -7,7 +7,7 @@ class Solution {
         
         vector<pair<int,int>>dp(n);
         
-        int maxLen = 0;
+        int maxLen = 0; 
         int minSum = 0;
         int totalSum = 0;
         
