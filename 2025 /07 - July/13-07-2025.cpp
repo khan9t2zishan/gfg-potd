@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int nonLisMaxSum(vector<int>& arr) {
+    int nonLisMaxSum(vector<int>& arr) { 
         // code here
             
         int n  = arr.size();
