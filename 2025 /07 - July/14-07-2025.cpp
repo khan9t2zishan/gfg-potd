@@ -6,7 +6,7 @@ class Solution {
         for (long long x = 1; x <= 1e9; x *= 5) {
             string bin = "";
             long long y = x;
-            while (y > 0) {
+            while (y > 0) { 
                 bin = char('0' + (y % 2)) + bin;
                 y /= 2;
             }
