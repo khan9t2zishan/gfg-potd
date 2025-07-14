@@ -9,7 +9,7 @@ class Solution {
             while (y > 0) { 
                 bin = char('0' + (y % 2)) + bin;
                 y /= 2;
-            }
+            } 
             power5.insert(bin);
         }
     }
