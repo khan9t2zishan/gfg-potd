@@ -6,7 +6,7 @@ class Solution {
         if(n < 2) return false ;
         int num = s[0]-'0'; 
         for (int i = 1 ; i < n ; i++){
-            num *= 10;
+            num *= 10; 
             num += (s[i]-'0');
             num %= 13;
         }
