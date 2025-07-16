@@ -8,7 +8,7 @@ class Solution {
             for(int j=1;j*j<=i*i;j++){
                 if((i*i)%j == 0){
                     ct++;
-                    if(ct > 5)break;
+                    if(ct > 5)break; 
                 }
             }
             if(ct == 5){
