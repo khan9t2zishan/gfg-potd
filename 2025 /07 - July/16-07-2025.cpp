@@ -4,7 +4,7 @@ class Solution {
         // Code Here
         int ans = 0;
         for(int i=1;i*i<=n;i++){
-            int ct = 0;
+            int ct = 0; 
             for(int j=1;j*j<=i*i;j++){
                 if((i*i)%j == 0){
                     ct++;
