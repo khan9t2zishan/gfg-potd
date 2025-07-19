@@ -3,7 +3,7 @@ class Solution {
     bool isvowel(char ch){
         if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u') 
         return true;
-        return false;
+        return false; 
     }
     
     int combination(int st){
