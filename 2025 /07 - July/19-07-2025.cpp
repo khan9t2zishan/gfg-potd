@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
   public:
     bool isvowel(char ch){
         if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u') 
