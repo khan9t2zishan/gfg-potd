@@ -9,7 +9,7 @@ class Solution {
             } else {
                 totalNum = totalNum * 10;
             }
-        }
+        } 
         
         int digits = arr.size();
         int not_containing = 1;
