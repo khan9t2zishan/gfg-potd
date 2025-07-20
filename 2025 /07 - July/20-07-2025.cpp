@@ -11,7 +11,7 @@ class Solution {
             }
         } 
         
-        int digits = arr.size();
+        int digits = arr.size(); 
         int not_containing = 1;
         for(int i = 1; i <= n; i++){
             if(i ==1){
