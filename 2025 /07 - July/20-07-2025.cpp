@@ -7,7 +7,7 @@ class Solution {
             if(i == 1){
                 totalNum = totalNum * 9;
             } else {
-                totalNum = totalNum * 10;
+                totalNum = totalNum * 10; 
             }
         } 
         
