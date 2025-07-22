@@ -12,7 +12,7 @@ class Solution {
         for(int i=1;i<=n;i++){
             if(myset.find(i)==myset.end()){
                 return i;
-            }
+            } 
         }
         return n+1;
     }
