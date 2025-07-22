@@ -8,7 +8,7 @@ class Solution {
             if(arr[i]>0)
             myset.insert(arr[i]);
         }
-              
+               
         for(int i=1;i<=n;i++){
             if(myset.find(i)==myset.end()){
                 return i;
