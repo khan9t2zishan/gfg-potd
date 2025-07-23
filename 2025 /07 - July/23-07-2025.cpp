@@ -5,7 +5,7 @@ class Solution {
         int ans = 0 ;  
         int n = arr.size();
          
-        for(int i=0;i<n;i++){
+        for(int i=0;i<n;i++){ 
             int left = i+1;
             int right = n-i;
             ans+= (arr[i]*left*right);
