@@ -3,7 +3,7 @@ class Solution {
     int getLastMoment(int n, vector<int>& left, vector<int>& right) {
         // code here
         int ans = 0;
-        for (int num : left) {
+        for (int num : left) { 
             ans = max(ans, num);
         }
         for (int num : right) {
