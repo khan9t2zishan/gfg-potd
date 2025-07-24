@@ -6,7 +6,7 @@ class Solution {
         for (int num : left) { 
             ans = max(ans, num);
         }
-        for (int num : right) {
+        for (int num : right) { 
             ans = max(ans, n - num); 
         }
         return ans;
