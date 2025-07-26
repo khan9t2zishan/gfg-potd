@@ -1,6 +1,6 @@
 class Solution {
   public:
-    vector<int> findMajority(vector<int>& arr) {  
+    vector<int> findMajority(vector<int>& arr) {   
         // Code here  
          map<int,int>mp;
        vector<int>ans;
