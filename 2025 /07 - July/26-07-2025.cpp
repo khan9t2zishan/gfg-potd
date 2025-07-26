@@ -1,7 +1,7 @@
 class Solution {
   public:
     vector<int> findMajority(vector<int>& arr) { 
-        // Code here
+        // Code here 
          map<int,int>mp;
        vector<int>ans;
        int n=arr.size()/3;
