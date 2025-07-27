@@ -2,7 +2,7 @@ class Solution {
   public:
     void setMatrixZeroes(vector<vector<int>> &mat) {
         // code here
-        int n = mat.size(), m = mat[0].size();
+        int n = mat.size(), m = mat[0].size(); 
  
         int c0 = 1;
         for (int i = 0; i < n; i++) {
