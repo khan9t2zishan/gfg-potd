@@ -1,7 +1,7 @@
 class Solution {
   public:
     int balanceSums(vector<vector<int>>& mat) { 
-        // code here 
+        // code here  
         int n = mat.size(); // Size of the square matrix
         int maxe = INT_MIN; // Initialize max sum to the smallest possible integer
         
