@@ -4,7 +4,7 @@ class Solution {
         // code here 
           int n=s.size(); 
         unordered_map<char,pair<int,int>>mp;
-        vector<int>ans(n,0);
+        vector<int>ans(n,0); 
         ans[0]=int(s[0]);
         for(int i=1;i<n;i++){
             ans[i]=ans[i-1]+int(s[i]);
