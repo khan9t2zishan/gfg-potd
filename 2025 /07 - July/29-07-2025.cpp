@@ -2,7 +2,7 @@ class Solution {
   public:
     vector<int> asciirange(string& s) { 
         // code here 
-          int n=s.size();
+          int n=s.size(); 
         unordered_map<char,pair<int,int>>mp;
         vector<int>ans(n,0);
         ans[0]=int(s[0]);
