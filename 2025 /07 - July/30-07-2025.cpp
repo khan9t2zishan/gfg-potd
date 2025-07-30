@@ -1,7 +1,7 @@
 class Solution {
   public:
     int cntSubarrays(vector<int> &arr, int k) {
-        // code here
+        // code here 
         unordered_map<int, int> prefixSums; 
         int res = 0;
         int currSum = 0;
