@@ -3,7 +3,7 @@ class Solution {
     int cntSubarrays(vector<int> &arr, int k) {
         // code here  
         unordered_map<int, int> prefixSums; 
-        int res = 0;
+        int res = 0; 
         int currSum = 0;
         for (int i = 0; i < arr.size(); i++) {
             currSum += arr[i];
