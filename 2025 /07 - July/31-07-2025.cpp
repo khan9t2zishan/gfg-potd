@@ -3,7 +3,7 @@ class Solution {
     int powerfulInteger(vector<vector<int>>& intervals, int k) {
         // code here
           map<ll,ll>mp;  
-        for(auto it : in){
+        for(auto it : in){ 
             mp[it[0]]++;
             mp[it[1]+1]--;
         }
