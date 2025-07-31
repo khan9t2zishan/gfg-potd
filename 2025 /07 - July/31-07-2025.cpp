@@ -1,9 +1,10 @@
+#define ll long long
 class Solution {
   public:
-    int powerfulInteger(vector<vector<int>>& intervals, int k) {
+    int powerfulInteger(vector<vector<int>>& in, int k) {
         // code here
-          map<ll,ll>mp;  
-        for(auto it : in){ 
+        map<ll,ll>mp;
+        for(auto it : in){
             mp[it[0]]++;
             mp[it[1]+1]--;
         }
