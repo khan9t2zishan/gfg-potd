@@ -1,7 +1,7 @@
 #define ll long long
 class Solution {
   public:
-    int powerfulInteger(vector<vector<int>>& in, int k) {
+    int powerfulInteger(vector<vector<int>>& in, int k) { 
         // code here
         map<ll,ll>mp;
         for(auto it : in){
