@@ -2,7 +2,7 @@ class Solution {
   public:
     int countBalanced(vector<string>& arr) {
         // code here
-         unordered_map<int,int>mp;
+         unordered_map<int,int>mp; 
         int vowel=0,cons=0;
         mp[0]=1;
         int n=arr.size();
