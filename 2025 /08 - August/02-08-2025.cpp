@@ -2,7 +2,7 @@ class Solution {
   public:
     int longestSubarray(vector<int> &arr, int k) { 
         // Code here
-        int n=(int)arr.size();   
+        int n=(int)arr.size();    
         int res=0; 
         
         map<int,int>mp;
