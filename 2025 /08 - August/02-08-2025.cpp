@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int longestSubarray(vector<int> &arr, int k) {
+    int longestSubarray(vector<int> &arr, int k) { 
         // Code here
         int n=(int)arr.size();  
         int res=0; 
