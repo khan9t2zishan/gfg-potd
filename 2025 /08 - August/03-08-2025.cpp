@@ -1,7 +1,6 @@
 class Solution {
   public:
-     vector<vector<int>> applyDiff2D(vector<vector<int>>& mat,
-                                    vector<vector<int>>& opr) {
+     vector<vector<int>> applyDiff2D(vector<vector<int>>& mat,vector<vector<int>>& opr) {
         
         int n =mat.size();
         int m =mat[0].size();
