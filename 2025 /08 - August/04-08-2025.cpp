@@ -7,7 +7,7 @@ class Solution {
             curr = max(arr[i], curr + arr[i]);
             maxSum = max(maxSum, curr);
         } 
-        return maxSum;
+        return maxSum; 
     }
 
     int maxRectSum(vector<vector<int>> &mat) {
