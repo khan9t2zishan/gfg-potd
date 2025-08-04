@@ -2,7 +2,7 @@ class Solution {
   public:
      // Kadane's Algorithm on a 1D array
     int kadane(vector<int>& arr) {  
-        int curr = arr[0], maxSum = arr[0];
+        int curr = arr[0], maxSum = arr[0]; 
         for (int i = 1; i < arr.size(); i++) {
             curr = max(arr[i], curr + arr[i]);
             maxSum = max(maxSum, curr);
