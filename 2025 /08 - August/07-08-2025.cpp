@@ -1,7 +1,7 @@
 class Solution {
   public:
     int minDifference(vector<string> &arr) { 
-        // code here 
+        // code here  
            int n=arr.size();
         vector<int> seconds(n);
         for(int i=0;i<n;i++) {
