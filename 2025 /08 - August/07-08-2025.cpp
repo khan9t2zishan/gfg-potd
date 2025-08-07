@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int minDifference(vector<string> &arr) {
+    int minDifference(vector<string> &arr) { 
         // code here 
            int n=arr.size();
         vector<int> seconds(n);
