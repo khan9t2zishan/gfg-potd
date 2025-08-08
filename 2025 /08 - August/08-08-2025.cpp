@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int getLPSLength(string &s) { 
+    int getLPSLength(string &s) {  
         // code here
          int n = s.length();
         vector<int> pref(n + 1, -1);
