@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int getLongestPrefix(string &s) { 
+    int getLongestPrefix(string &s) {  
         // code here
         int n = s.length(), ans = -1;   
         vector<int> z(n, 0);
