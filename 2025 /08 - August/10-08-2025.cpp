@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int countPS(string &s) {
+    int countPS(string &s) { 
         // code here
          int ct = 0;
         for(int i=0;i<s.size();i++){
