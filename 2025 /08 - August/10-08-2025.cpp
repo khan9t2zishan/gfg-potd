@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     int countPS(string &s) {  
         // code here
          int ct = 0;
