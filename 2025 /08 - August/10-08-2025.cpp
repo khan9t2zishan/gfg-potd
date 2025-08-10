@@ -4,7 +4,7 @@ class Solution {
         // code here
          int ct = 0; 
         for(int i=0;i<s.size();i++){
-            for(int j=1;i-j>=0 && i+j < s.size(); j++){
+            for(int j=1;i-j>=0 && i+j < s.size(); j++){ 
                 if(s[i-j]!=s[i+j]) break;
                 ct++;
             }
