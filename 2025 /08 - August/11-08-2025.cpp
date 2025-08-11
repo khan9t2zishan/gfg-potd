@@ -5,7 +5,7 @@ class Solution {
         int n = (int)s.size();
         if (n < 2) return 0;
 
-        vector<int> rad(n);   
+        vector<int> rad(n);    
         for (int i = 0, L = 0, R = -1; i < n; ++i) {
             int k = (i > R) ? 1 : min(rad[L + R - i], R - i + 1);
             while (i - k >= 0 && i + k < n && s[i - k] == s[i + k]) ++k;
