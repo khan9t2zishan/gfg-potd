@@ -1,7 +1,7 @@
 class Solution {
   public:
     vector<int> minMaxCandy(vector<int>& prices, int k) {
-        // Code here
+        // Code here 
         sort(prices.begin(),prices.end());
         int n = prices.size();
         int mini =0, maxi = 0;
