@@ -2,7 +2,7 @@ class Solution {
 public:
     int countRevPairs(vector<int>& arr) {
         vector<int> temp = arr;
-        return mergeSort(temp, 0, temp.size() - 1);
+        return mergeSort(temp, 0, temp.size() - 1); 
     }
     
 private:
