@@ -3,7 +3,7 @@ class Solution {
     vector<vector<int>> insertInterval(vector<vector<int>> &intervals,
                                        vector<int> &newInterval) { 
         // code here
-        int start=newInterval[0], end=newInterval[1];
+        int start=newInterval[0], end=newInterval[1]; 
         vector<vector<int>>ans;
         int l, r=INT_MIN, c=-1;
         int n=intervals.size();
