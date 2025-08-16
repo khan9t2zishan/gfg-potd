@@ -2,7 +2,7 @@ class Solution {
   public:
      static bool comp(string a, string b) { 
          return a + b > b + a;
-    }
+    } 
 
     string findLargest(vector<int> &arr) {
         vector<string> nums;
