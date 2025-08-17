@@ -4,7 +4,7 @@ class Solution {
         // code here
         map<int,vector<int>>mp;
         int n = arr.size();
-        for(int i=0; i<n; i++){
+        for(int i=0; i<n; i++){ 
             mp[abs(arr[i]-x)].push_back(arr[i]);
         }
         
