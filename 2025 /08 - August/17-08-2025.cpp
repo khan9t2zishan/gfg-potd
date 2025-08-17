@@ -1,6 +1,6 @@
 class Solution {
   public:
-      void rearrange(vector<int> &arr, int x) {
+      void rearrange(vector<int> &arr, int x) {  
         // code here
         map<int,vector<int>>mp;
         int n = arr.size();
