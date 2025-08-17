@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
   public:
       void rearrange(vector<int> &arr, int x) {  
         // code here
