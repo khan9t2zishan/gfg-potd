@@ -2,7 +2,7 @@ class Solution {
   public:
     int hIndex(vector<int>& arr) {
         // code here
-        int n=arr.size();
+        int n=arr.size(); 
         int num=INT_MIN;
         int j=*max_element(arr.begin(), arr.end());
         
