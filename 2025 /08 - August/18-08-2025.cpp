@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int hIndex(vector<int>& arr) {
+    int hIndex(vector<int>& arr) { 
         // code here
         int n=arr.size(); 
         int num=INT_MIN;
