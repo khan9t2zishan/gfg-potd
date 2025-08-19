@@ -1,6 +1,6 @@
 class Solution {
   public:
-    vector<int> farMin(vector<int>& arr) { 
+    vector<int> farMin(vector<int>& arr) {   
         // code here 
          int n = arr.size();
         vector<pair<int, int>> tmp(n);
