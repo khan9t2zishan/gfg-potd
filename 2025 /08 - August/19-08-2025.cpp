@@ -1,7 +1,7 @@
 class Solution {
   public:
     vector<int> farMin(vector<int>& arr) {   
-        // code here 
+        // code here  
          int n = arr.size();
         vector<pair<int, int>> tmp(n);
         for(int i = 0; i < n; i++) tmp[i] = {arr[i], i};
