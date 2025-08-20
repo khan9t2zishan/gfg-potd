@@ -1,6 +1,6 @@
 class Solution {
   public:
-    bool searchMatrix(vector<vector<int>> &mat, int x) {  
+    bool searchMatrix(vector<vector<int>> &mat, int x) {   
         // code here
          int m = mat.size();  
         int n = mat[0].size();
