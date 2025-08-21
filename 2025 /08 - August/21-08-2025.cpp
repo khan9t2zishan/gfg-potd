@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int maxMinDiff(vector<int>& arr, int k) {
+    int maxMinDiff(vector<int>& arr, int k) { 
         // code here
         sort(arr.begin(), arr.end());
         int lo=0, hi=1e5;
