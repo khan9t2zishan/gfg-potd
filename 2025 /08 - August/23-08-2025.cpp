@@ -1,7 +1,7 @@
 class Solution {
   public:
     bool check(vector<int>&arr, long long mid, int k){
-        int cnt=1;
+        int cnt=1; 
         long long sum=0;
         for(int i=0;i<arr.size();i++){
             if(sum+arr[i]>mid){
