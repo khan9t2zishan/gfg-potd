@@ -1,7 +1,7 @@
 class Solution {
   public:
     int n;
-    bool check(vector<int>& arr, int k, int m,int mid){ 
+    bool check(vector<int>& arr, int k, int m,int mid){  
         int cnt = 0;
         
         for(int i = 0;i < arr.size();i++){
