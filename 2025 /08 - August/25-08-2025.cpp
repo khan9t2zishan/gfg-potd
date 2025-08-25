@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int maximizeMedian(vector<int>& arr, int k) {    
+    int maximizeMedian(vector<int>& arr, int k) {     
         // code here 
         int n = arr.size(), cur = (n-1)/2;
         sort(arr.begin(), arr.end());
