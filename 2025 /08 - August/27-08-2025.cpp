@@ -1,6 +1,6 @@
 class Solution {
   public: 
-    int countTriangles(vector<int>& arr) {   
+    int countTriangles(vector<int>& arr) {    
         // code here
         int res=0;
         int n=arr.size();
