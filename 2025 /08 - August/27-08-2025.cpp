@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     int countTriangles(vector<int>& arr) {
         // code here
         int res=0;
