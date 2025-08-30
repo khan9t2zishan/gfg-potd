@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int celebrity(vector<vector<int>>& mat) {
+    int celebrity(vector<vector<int>>& mat) { 
         // code here
         int n=mat.size();
         
