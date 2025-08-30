@@ -1,6 +1,6 @@
 class Solution {
   public:
-    string smallestWindow(string &s, string &p) {
+    string smallestWindow(string &s, string &p) { 
         // code here 
          vector<int> freqs(26,0);
         vector<int> freqp(26,0);
