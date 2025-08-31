@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int maxWater(vector<int> &arr) { 
+    int maxWater(vector<int> &arr) {  
         // code here
         int n=arr.size();
         int i=0,j=n-1;
