@@ -1,7 +1,7 @@
 class Solution {
   public:
     int sumOfModes(vector<int>& arr, int k) { 
-        // code here 
+        // code here  
          map<int,int>mp;
         
         int n = arr.size();
