@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int sumOfModes(vector<int>& arr, int k) {
+    int sumOfModes(vector<int>& arr, int k) { 
         // code here
          map<int,int>mp;
         
