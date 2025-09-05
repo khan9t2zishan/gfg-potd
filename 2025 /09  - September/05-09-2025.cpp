@@ -5,7 +5,7 @@
     Node* next;
 
     Node(int x) {
-        data = x;
+        data = x; 
         next = nullptr; 
     }
 };
