@@ -1,12 +1,12 @@
 class Solution {
   public:  
-    int getMinDiff(vector<int> &arr, int k) {
+    int getMinDiff(vector<int> &arr, int k) { 
         // code here
         int n =(int)arr.size();
         sort(arr.begin(),arr.end());
         int ans=INT_MAX;
         for(int i=0;i<n;i++)
-        {
+        { 
             if((arr[i]-k)<0)
             continue;
             int maxmH=arr[n-1]-k;
