@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
   public:  
     int getMinDiff(vector<int> &arr, int k) { 
         // code here
