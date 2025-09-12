@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     int getMinDiff(vector<int> &arr, int k) {
         // code here
         int n =(int)arr.size();
