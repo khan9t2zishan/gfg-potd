@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int minCost(int n, int m, vector<int>& x, vector<int>& y) {
+    int minCost(int n, int m, vector<int>& x, vector<int>& y) { 
         //  code here
         sort(x.rbegin(), x.rend());
         sort(y.rbegin(), y.rend());
