@@ -3,7 +3,7 @@ class Solution {
     int startStation(vector<int> &gas, vector<int> &cost) {
         //  code here
         int n = gas.size();
-        int totalGas = 0, totalCost = 0;
+        int totalGas = 0, totalCost = 0; 
         
         for (int i = 0; i < n; i++) {
             totalGas += gas[i];
