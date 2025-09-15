@@ -1,7 +1,7 @@
 class Solution {
   public:
     bool stringStack(string &pat, string &tar) {
-        // code here
+        // code here 
         int i=pat.length()-1;
         int j=tar.length()-1;
         while(i>=0&&j>=0){
