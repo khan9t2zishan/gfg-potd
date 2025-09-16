@@ -3,7 +3,7 @@ class Solution {
     int evaluatePostfix(vector<string>& arr) {
         // code here
         stack<int> st;
-        for(auto it:arr){
+        for(auto it:arr){ 
             if(it!="+" && it!="-" && it!="*" && it!="/" && it!="^")
                 st.push(stoi(it));
             else {
