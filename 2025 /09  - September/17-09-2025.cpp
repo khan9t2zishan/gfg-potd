@@ -1,7 +1,7 @@
 class Solution {
   public:
     string decodedString(string &s) { 
-        // code here
+        // code here 
          stack<string>num;
         string res="";
         int c=0;
