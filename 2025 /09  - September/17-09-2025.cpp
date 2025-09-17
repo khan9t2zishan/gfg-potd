@@ -1,6 +1,6 @@
 class Solution {
   public:
-    string decodedString(string &s) {
+    string decodedString(string &s) { 
         // code here
          stack<string>num;
         string res="";
