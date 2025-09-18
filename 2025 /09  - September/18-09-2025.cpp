@@ -1,7 +1,7 @@
 class Solution {
   public:
     vector<int> nextGreater(vector<int> &arr) {   
-        // code here
+        // code here 
     int n = arr.size();
     vector<int> result(n, -1);  
     stack<int> st; // stores indices
