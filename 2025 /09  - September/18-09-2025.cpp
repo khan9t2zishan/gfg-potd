@@ -1,6 +1,6 @@
 class Solution {
   public:
-    vector<int> nextGreater(vector<int> &arr) {
+    vector<int> nextGreater(vector<int> &arr) {  
         // code here
     int n = arr.size();
     vector<int> result(n, -1);
