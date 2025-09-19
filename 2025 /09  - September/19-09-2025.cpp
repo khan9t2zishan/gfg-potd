@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int minParentheses(string& s) {
+    int minParentheses(string& s) { 
         // code here
     int balance = 0;   // counts unmatched '('
     int insertions = 0; // counts needed '('
