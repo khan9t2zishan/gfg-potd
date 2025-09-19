@@ -4,7 +4,7 @@ class Solution {
         // code here
     int balance = 0;   // counts unmatched '('
     int insertions = 0; // counts needed '('
-
+ 
     for (char c : s) {
         if (c == '(') {
             balance++;  
