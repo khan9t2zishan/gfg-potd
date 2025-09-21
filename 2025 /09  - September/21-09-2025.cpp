@@ -1,6 +1,6 @@
 class Solution { 
   public:
-    int maxArea(vector<vector<int>> &mat) {
+    int maxArea(vector<vector<int>> &mat) { 
         int n = mat.size();
         if(n == 0) return 0;  // Handle empty matrix [web:1]
         int m = mat[0].size();  // Get column count [web:1]
