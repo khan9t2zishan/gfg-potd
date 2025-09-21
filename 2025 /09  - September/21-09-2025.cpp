@@ -1,37 +1,38 @@
 class Solution {
   public:
-   int getArea(int m, vector<int>& bars){
-        vector<int> nse(m,m), pse(m,-1);
-        stack<int> st;
-        for(int i=0;i<m;i++){
-            while(!st.empty() && bars[st.top()]>=bars[i]) st.pop();
-            if(!st.empty()) pse[i]=st.top();
-            st.push(i);
-        }
-        while(!st.empty()) st.pop();
-        for(int i=m-1;i>=0;i--){
-            while(!st.empty() && bars[st.top()]>=bars[i]) st.pop();
-            if(!st.empty()) nse[i]=st.top();
-            st.push(i);
-        }
-        int area=0;
-        for(int i=0;i<m;i++){
-            area=max(area, bars[i]*(nse[i]-pse[i]-1));
-        }
-        return area;
-    }
     int maxArea(vector<vector<int>> &mat) {
-        int n=mat.size();
-        int m=mat[0].size();
-        int ans=0;
-        vector<int> bars(m,0);
-        for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++) {
-                if(mat[i][j]==0) bars[j]=0;
-                else bars[j]++;
+        int n = mat.size();
+        if(n == 0) return 0;  // Handle empty matrix [web:1]
+        int m = mat[0].size();  // Get column count [web:1]
+        vector<int> heights(m, 0); // Heights for histogram [web:1]
+        int max_area = 0;  // Initialize max area [web:1]
+        for(int i = 0; i < n; ++i) {
+            // Update the heights for the histogram
+            for(int j = 0; j < m; ++j)
+                heights[j] = mat[i][j] == 0 ? 0 : heights[j] + 1;  // Update height [web:1]
+            // Compute max area for current histogram row
+            stack<int> st;
+            int j = 0;
+            while (j < m) {
+                if (st.empty() || heights[j] >= heights[st.top()]) {
+                    st.push(j++);
+                } else {
+                    int top = st.top();
+                    st.pop();
+                    int width = st.empty() ? j : j - st.top() - 1;
+                    int area = heights[top] * width;
+                    max_area = max(max_area, area); // Update max area [web:1]
+                }
             }
-            ans=max(ans, getArea(m,bars));
+            // Clear remaining stack
+            while (!st.empty()) {
+                int top = st.top();
+                st.pop();
+                int width = st.empty() ? j : j - st.top() - 1;
+                int area = heights[top] * width;
+                max_area = max(max_area, area); // Update max area [web:1]
+            }
         }
-        return ans;
+        return max_area; // Return the maximal rectangle area [web:1]
     }
 };
