@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     vector<int> maxOfMins(vector<int>& arr) {
         //  code here
         int n = arr.size();
