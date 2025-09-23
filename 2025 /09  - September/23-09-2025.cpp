@@ -7,7 +7,7 @@ class Solution {
             st.push(q.front());
             q.pop();
         }
-        while(!st.empty()){
+        while(!st.empty()){ 
             q.push(st.top());
             st.pop();
         }
