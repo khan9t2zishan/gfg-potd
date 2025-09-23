@@ -2,7 +2,7 @@ class Solution {
   public:
     void reverseQueue(queue<int> &q) {
         // code here 
-        stack<int> st; 
+        stack<int> st;  
         while(!q.empty()){
             st.push(q.front());
             q.pop();
