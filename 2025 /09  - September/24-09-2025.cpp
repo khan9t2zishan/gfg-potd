@@ -2,7 +2,7 @@ class SpecialQueue {
         vector<int> vt;
   public:
 
-    void enqueue(int x) {
+    void enqueue(int x) { 
         // Insert element into the queue
         vt.push_back(x);
     }
