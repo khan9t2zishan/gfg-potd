@@ -1,7 +1,7 @@
 class Solution {
   public:
     vector<string> generateBinary(int n) {
-        // code here
+        // code here 
         vector<string> result(n);
         result[0] = "1";
         for(int i = 2;i<=n;i++){
