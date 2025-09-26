@@ -1,6 +1,6 @@
 class Solution { 
   public:
-    void rotateDeque(deque<int>& dq, int type, int k) {
+    void rotateDeque(deque<int>& dq, int type, int k) { 
         // code here
         int n = dq.size();
         if (n == 0) return;
