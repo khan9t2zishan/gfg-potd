@@ -3,7 +3,7 @@ class Solution {
     void rotateDeque(deque<int>& dq, int type, int k) { 
         // code here
         int n = dq.size();
-        if (n == 0) return;
+        if (n == 0) return; 
 
         k %= n; // no need to rotate more than n times
         if (k == 0) return;
