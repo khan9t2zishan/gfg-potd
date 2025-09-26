@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
   public:
     void rotateDeque(deque<int>& dq, int type, int k) {
         // code here
