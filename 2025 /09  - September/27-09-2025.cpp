@@ -1,6 +1,6 @@
 class Solution {
   public: 
-    int kBitFlips(vector<int>& arr, int k) {
+    int kBitFlips(vector<int>& arr, int k) { 
         // code here
         int n = arr.size();
         vector<int> isFlipped(n, 0); 
