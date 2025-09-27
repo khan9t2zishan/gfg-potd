@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     int kBitFlips(vector<int>& arr, int k) {
         // code here
         int n = arr.size();
