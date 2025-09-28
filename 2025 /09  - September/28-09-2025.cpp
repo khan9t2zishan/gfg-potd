@@ -4,7 +4,7 @@ class Solution {
         // code here
         int n = arr.size();
         deque<int> maxDq, minDq;
-        int left = 0, bestStart = 0, bestLen = 0;
+        int left = 0, bestStart = 0, bestLen = 0; 
     
         for (int right = 0; right < n; right++) {
             while (!maxDq.empty() && arr[maxDq.back()] < arr[right]) 
