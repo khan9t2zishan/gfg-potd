@@ -1,6 +1,6 @@
 class Solution {
   public:
-    vector<int> longestSubarray(vector<int>& arr, int x) {
+    vector<int> longestSubarray(vector<int>& arr, int x) { 
         // code here
         int n = arr.size();
         deque<int> maxDq, minDq;
