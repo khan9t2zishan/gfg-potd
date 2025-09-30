@@ -1,7 +1,7 @@
 class Solution {
   public:
    void fill(int i, int n, vector <string>& store, string& curr){ 
-        if(i > n) return;
+        if(i > n) return; 
         
         curr.push_back('0');
         if(i == n) store.push_back(curr);
