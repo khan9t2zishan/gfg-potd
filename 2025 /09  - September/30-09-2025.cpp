@@ -1,6 +1,6 @@
 class Solution {
   public:
-   void fill(int i, int n, vector <string>& store, string& curr){
+   void fill(int i, int n, vector <string>& store, string& curr){ 
         if(i > n) return;
         
         curr.push_back('0');
