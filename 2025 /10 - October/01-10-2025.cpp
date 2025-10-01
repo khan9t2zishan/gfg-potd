@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     vector<vector<int>> uniquePerms(vector<int>& arr) {
         // code here
         vector<vector<int>>ans;
