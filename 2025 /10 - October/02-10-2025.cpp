@@ -1,7 +1,7 @@
 class Solution {
   public:
    void solve(int n,int k,vector<int>&curr,vector<vector<int>>&ans,int i){
-        if(n==0){
+        if(n==0){ 
             if(curr.size()==k){
                 ans.push_back(curr);
             }
