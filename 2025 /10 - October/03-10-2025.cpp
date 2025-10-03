@@ -3,7 +3,7 @@ class Solution {
     void solve(int idx,vector<int> &arr, vector<string> &ans,string &sol,map<int, string> &mp)
     {
         if(idx == arr.size())
-        {
+        { 
             ans.push_back(sol);
             return;
         }
