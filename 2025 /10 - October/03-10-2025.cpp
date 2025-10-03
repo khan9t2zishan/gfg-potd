@@ -1,4 +1,4 @@
-class Solution { 
+class Solution {  
   public:
     void solve(int idx,vector<int> &arr, vector<string> &ans,string &sol,map<int, string> &mp)
     {
