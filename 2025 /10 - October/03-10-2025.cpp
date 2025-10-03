@@ -7,7 +7,7 @@ class Solution {
             ans.push_back(sol);  
             return; 
         }
-        if(arr[idx] == 1 or arr[idx] == 0)
+        if(arr[idx] == 1 or arr[idx] == 0) 
         {
             solve(idx+1,arr,ans,sol,mp);
             return;
