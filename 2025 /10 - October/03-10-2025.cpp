@@ -5,7 +5,7 @@ class Solution {
         if(idx == arr.size())
         { 
             ans.push_back(sol); 
-            return;
+            return; 
         }
         if(arr[idx] == 1 or arr[idx] == 0)
         {
