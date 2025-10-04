@@ -1,6 +1,6 @@
 class Solution {
   public:
-    vector<string> ans; 
+    vector<string> ans;  
 
     void solve(string &num, int target, int idx, long long currVal, long long prevNum, string expr) {
         int n = num.size();
