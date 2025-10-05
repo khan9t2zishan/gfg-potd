@@ -4,7 +4,7 @@ class Solution {
     vector<string>result;
     void solve(vector<vector<int>>& maze, int i, int j, string &temp,vector<vector<bool>>&visited){
            if (i>=n || j>=n || i<0 || j<0 ||  maze[i][j]==0 || visited[i][j]) {
-                
+                 
                    return ;
            }
            if (i==n-1 && j ==m-1) {
