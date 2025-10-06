@@ -1,7 +1,7 @@
 class Solution {
   public:
     vector<int> xi={2,2,-2,-2,1,1,-1,-1};  
-    vector<int> yi={1,-1,1,-1,2,-2,2,-2};
+    vector<int> yi={1,-1,1,-1,2,-2,2,-2}; 
     bool isSafe(int n, int x, int y, vector<vector<int>>&mat) {
         if(x>=0&&x<n&&y>=0 && y<n&&mat[x][y]==-1) {
             return true;
