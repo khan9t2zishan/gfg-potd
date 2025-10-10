@@ -7,7 +7,7 @@ class Node {
     Node(int val) {
         data = val;
         left = right = NULL;
-    }
+    } 
 };
 */
 class Solution {
