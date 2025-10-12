@@ -1,6 +1,6 @@
 /*
 class Node {
-public:
+public: 
     int data; 
     Node* left;
     Node* right;
