@@ -4,7 +4,7 @@ public:
     int data; 
     Node* left; 
     Node* right;
-    Node(int val) {
+    Node(int val) { 
         data = val;  
         left = nullptr;
         right = nullptr;
