@@ -7,7 +7,7 @@ class Node {
 
     // Constructor to initialize a new node
     Node(int val) {
-        data = val;
+        data = val; 
         left = NULL;
         right = NULL;
     }
