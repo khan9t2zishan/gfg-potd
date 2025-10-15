@@ -1,7 +1,7 @@
 /*
 class Node {
   public:
-    int data;
+    int data; 
     Node* left; 
     Node* right;
 
