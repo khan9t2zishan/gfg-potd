@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     vector<int> countBSTs(vector<int>& arr) {
         // Code here
         int n = arr.size();
