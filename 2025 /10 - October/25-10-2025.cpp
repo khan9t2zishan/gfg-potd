@@ -1,7 +1,7 @@
 class Solution { 
   public:
     int minOperations(vector<int>& arr) {
-        // code here
+        // code here 
         priority_queue<double> pq;
         double sum = 0;
         for (int it : arr) {
