@@ -5,7 +5,7 @@ class Solution {
         priority_queue<pair<int, pair<int, int>>, 
         vector<pair<int, pair<int, int>>>, greater<pair<int, pair<int, int>>>>pq;
         int n=arr1.size();
-        int m=arr2.size();
+        int m=arr2.size(); 
         
         for(int i=0; i<min(k, n); i++){
             for(int j=0; j<min(m, k); j++){
