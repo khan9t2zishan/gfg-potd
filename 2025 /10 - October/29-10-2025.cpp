@@ -7,7 +7,7 @@ class Solution {
         dist[start] = 0;
         int farthestNode = start;
         while (!q.empty()) {
-            int node = q.front();
+            int node = q.front(); 
             q.pop();
             for (auto &nbr : adj[node]) {
                 if (dist[nbr] == -1) {
