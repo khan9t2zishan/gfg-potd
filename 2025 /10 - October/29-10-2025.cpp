@@ -1,7 +1,7 @@
 class Solution {
   public:
     pair<int, int> bfs(int start, vector<vector<int>>& adj, int V) {
-        vector<int> dist(V, -1);
+        vector<int> dist(V, -1); 
         queue<int> q;
         q.push(start);
         dist[start] = 0;
