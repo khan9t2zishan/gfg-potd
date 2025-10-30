@@ -10,7 +10,7 @@ class Solution {
         for(int i=0; i<n; i++){
             if(grid[i][0]=='O'){
                 grid[i][0]='C';
-                q.push({i, 0});
+                q.push({i, 0}); 
             }
             if(grid[i][m-1]=='O'){
                 grid[i][m-1]='C';
