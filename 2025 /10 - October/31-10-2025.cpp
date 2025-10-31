@@ -2,7 +2,7 @@ class Solution {
   public:
     int shortCycle(int V, vector<vector<int>>& edges) {
         // Code here
-         
+           
         int m = edges.size(), ans = V + 1;
         
         vector<vector<int>> adj(V);
