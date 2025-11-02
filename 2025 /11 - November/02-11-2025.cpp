@@ -8,7 +8,7 @@ class Solution {
         for (int i = 0; i < edges.size(); i++){
             int u = edges[i][0], v = edges[i][1];
             adj[u].push_back(v);
-            indeg[v]++;
+            indeg[v]++; 
         }
         queue<int> q;
         for (int i = 0; i < V; i++){
