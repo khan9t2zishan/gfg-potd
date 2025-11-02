@@ -16,7 +16,7 @@ class Solution {
         } 
         int ans = 0;
         vector<int> topo; 
-        while (!q.empty()){
+        while (!q.empty()){ 
             int node = q.front();
             q.pop();
             topo.push_back(node);
