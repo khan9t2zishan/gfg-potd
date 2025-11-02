@@ -13,7 +13,7 @@ class Solution {
         queue<int> q;
         for (int i = 0; i < V; i++){
             if (indeg[i] == 0) q.push(i);
-        } 
+        }  
         int ans = 0;
         vector<int> topo; 
         while (!q.empty()){ 
