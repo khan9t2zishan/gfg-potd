@@ -15,7 +15,7 @@ class Solution {
             if (indeg[i] == 0) q.push(i);
         }
         int ans = 0;
-        vector<int> topo;
+        vector<int> topo; 
         while (!q.empty()){
             int node = q.front();
             q.pop();
