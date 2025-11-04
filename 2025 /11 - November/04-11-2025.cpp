@@ -12,6 +12,6 @@ class Solution {
             dp[i] = min(a,b);
         }
         
-        return dp[0];
+        return dp[0]; 
     }
 };
