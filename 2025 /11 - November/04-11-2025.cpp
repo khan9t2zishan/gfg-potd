@@ -10,7 +10,7 @@ class Solution {
                 b = abs(height[i] - height[i + 2]) + dp[i + 2];
             
             dp[i] = min(a,b);
-        }
+        } 
         
         return dp[0]; 
     }
