@@ -1,7 +1,7 @@
 class Solution {
   public:
     int numberOfWays(int n) {
-        // code here
+        // code here 
         int dp[101];        //dp[i] denotes no. of tiles arrangement for 2 x i floor
         
         dp[0] = 1;
