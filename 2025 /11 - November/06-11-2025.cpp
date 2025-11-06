@@ -6,7 +6,7 @@ class Solution {
         
         dp[0] = 1;
         dp[1] = 1;
-        
+         
         for (int i=2; i<=100; i++) {    //dp[i-1] -> Last tile placed vertically
             dp[i] = dp[i-1]+dp[i-2];    //dp[i-2] -> Last tiles placed horizontally
         }
