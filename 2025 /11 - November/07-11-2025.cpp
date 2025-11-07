@@ -4,7 +4,7 @@ class Solution {
         // code here 
         int n = jobs.size(); 
         sort(jobs.begin(), jobs.end());
-         
+          
         vector<int> start(n);
         for (int i=0; i<n; i++) start[i] = jobs[i][0];
         
