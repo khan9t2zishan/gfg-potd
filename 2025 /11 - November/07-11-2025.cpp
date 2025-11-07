@@ -2,7 +2,7 @@ class Solution {
   public:
     int maxProfit(vector<vector<int>> &jobs) {
         // code here 
-        int n = jobs.size();
+        int n = jobs.size(); 
         sort(jobs.begin(), jobs.end());
         
         vector<int> start(n);
