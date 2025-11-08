@@ -5,7 +5,7 @@ class Solution {
             if(target==mat[i][j]) return 1;
             else return 0; 
         }
-        if(i<0 || j<0 || target<0) return 0; 
+        if(i<0 || j<0 || target<0) return 0;  
          
         if(dp[i][j][target]!=-1) return dp[i][j][target];
         
