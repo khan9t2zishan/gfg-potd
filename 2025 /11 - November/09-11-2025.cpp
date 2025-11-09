@@ -4,7 +4,7 @@ class Solution {
         // code here 
         int n = mat.size(); 
         if (mat[0][0] == -1 || mat[n - 1][n - 1] == -1) 
-            return 0;
+            return 0; 
 
         // 3D DP: dp[k][i1][i2] = max chocolates collected when
         // both paths take k steps and are at (i1, j1) and (i2, j2) respectively.
