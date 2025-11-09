@@ -3,7 +3,7 @@ class Solution {
     int chocolatePickup(vector<vector<int>> &mat) {
         // code here 
         int n = mat.size();
-        if (mat[0][0] == -1 || mat[n - 1][n - 1] == -1)
+        if (mat[0][0] == -1 || mat[n - 1][n - 1] == -1) 
             return 0;
 
         // 3D DP: dp[k][i1][i2] = max chocolates collected when
