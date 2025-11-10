@@ -6,7 +6,7 @@ class Solution {
         
         int buy=0, sell=0;
         
-        if(s==0){
+        if(s==0){ 
             buy=max(solve(i+1, n, s, arr, dp), (-1)*arr[i]+solve(i+1, n, 1-s, arr, dp));
         }else{
             sell=max(solve(i+1, n, s, arr, dp), arr[i]+solve(i+2, n, 1-s, arr, dp));
