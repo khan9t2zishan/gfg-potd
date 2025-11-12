@@ -4,7 +4,7 @@ class Solution {
         // code here
         int n = txt.size(), m = pat.size();
         
-        // Step 1: collapse multiple '*'
+        // Step 1: collapse multiple '*' 
         string newPat;
         for (int i = 0; i < m; i++) {
             if (pat[i] == '*' && !newPat.empty() && newPat.back() == '*')
