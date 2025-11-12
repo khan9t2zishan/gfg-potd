@@ -2,7 +2,7 @@ class Solution {
   public:
     bool wildCard(string &txt, string &pat) {
         // code here
-        int n = txt.size(), m = pat.size(); 
+        int n = txt.size(), m = pat.size();  
         
         // Step 1: collapse multiple '*' 
         string newPat;
