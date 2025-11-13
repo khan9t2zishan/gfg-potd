@@ -8,8 +8,6 @@ class Solution {
         vector<vector<int>>dp(n1+1,vector<int>(n2+1,-1));
         auto f=[&](auto && f,int i,int j)->int{
             
-           
-            
             if(i==n1 && j==n2 && i+j==n3)
             return 1;
             
