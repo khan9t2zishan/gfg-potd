@@ -4,7 +4,7 @@ class Solution {
         // code here
         int n = stones.size();
         if ((n - 1) % (k - 1) != 0) return -1;
-        vector<int> prefix(n + 1, 0); 
+        vector<int> prefix(n + 1, 0);  
         for (int i = 0; i < n; i++) 
             prefix[i + 1] = prefix[i] + stones[i];
         auto getSum = [&](int l, int r) {
