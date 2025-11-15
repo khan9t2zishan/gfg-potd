@@ -4,7 +4,7 @@ class Solution {
         // code here
         int m = cuts.size(); 
         cuts.push_back(0);
-        cuts.push_back(n);
+        cuts.push_back(n); 
         sort(cuts.begin(), cuts.end());
         vector<vector<int>> dp(m + 2, vector<int>(m + 2, 0));
         for (int len = 2; len < m + 2; len++) {
