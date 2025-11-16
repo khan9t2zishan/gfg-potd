@@ -4,7 +4,7 @@ class Solution {
         // code here
         int n = (int)a.size();
         int m = (int)b.size();
-
+ 
         // lcis[j] = length of LCIS that ends with b[j]
         vector<int> lcis(m, 0);
 
