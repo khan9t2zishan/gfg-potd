@@ -9,7 +9,7 @@ class Solution {
         vector<int> lcis(m, 0);
 
         for (int i = 0; i < n; ++i) {
-            
+             
             int current = 0; // best LCIS length for a[0,...,i-1]
             
             for (int j = 0; j < m; ++j) {
