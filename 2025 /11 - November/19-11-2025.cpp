@@ -2,7 +2,7 @@ class Solution {
   public:
     int minCostPath(vector<vector<int>>& mat) {
         // code here
-        int n = mat.size();
+        int n = mat.size(); 
         int m = mat[0].size();
  
         vector<vector<int>> dist(n, vector<int>(m, INT_MAX));
