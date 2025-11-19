@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int minCostPath(vector<vector<int>>& mat) {
+    int minCostPath(vector<vector<int>>& mat) { 
         // code here
         int n = mat.size(); 
         int m = mat[0].size();
