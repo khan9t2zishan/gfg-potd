@@ -2,7 +2,7 @@ class Solution {
   public:
     int minCost(string &s, string &t, vector<vector<char>> &transform,
                 vector<int> &cost) {
-        // code here
+        // code here 
         const int INF = 1e9;
         vector<vector<int>> dist(26, vector<int>(26, INF));
         for (int i = 0; i < 26; i++) dist[i][i] = 0;
