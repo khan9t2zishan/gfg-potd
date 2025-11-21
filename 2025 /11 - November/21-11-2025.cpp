@@ -4,7 +4,7 @@ class Solution {
         // code here
         int E = edges.size();
         vector<vector<vector<int>>> adj(V);
-        for(int i = 0; i < E; i++) {
+        for(int i = 0; i < E; i++) { 
             adj[edges[i][0]].push_back({edges[i][1], edges[i][2], edges[i][3]});
             adj[edges[i][1]].push_back({edges[i][0], edges[i][2], edges[i][3]});
         } 
