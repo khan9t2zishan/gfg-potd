@@ -4,7 +4,7 @@ class Solution {
         // Code here
         // Map row -> list of columns
         map<int, vector<int>> row;
-
+ 
         // Map column -> list of rows
         map<int, vector<int>> col;
 
