@@ -7,7 +7,7 @@ class Solution {
         for(int i=1;i<=n;i++){
             sum=sum^i;
         }
-        int req=abs(n-sum);
+        int req=abs(n-sum); 
         for(int i=1;i<=n;i++){
             if(i!=req) ans.push_back(i);
         }
