@@ -3,7 +3,7 @@ class Solution {
     int countSetBits(int n) { 
         // code here
         int limit = log2(n);    // number of bits limit
-        
+         
         int ans=0;
         
         for (int idx=0; idx<=limit; idx++) {
