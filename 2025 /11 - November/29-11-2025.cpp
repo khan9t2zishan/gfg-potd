@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int countSetBits(int n) {
+    int countSetBits(int n) { 
         // code here
         int limit = log2(n);    // number of bits limit
         
