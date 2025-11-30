@@ -6,7 +6,7 @@ class Solution {
     		for(int c=0;c<26;c++)
                 child[c]=NULL;
     	} 
-    }; 
+    };  
     int countSubs(string& s) { 
        TrieNode* root=new TrieNode();
        int n=s.size(),ans=0; 
