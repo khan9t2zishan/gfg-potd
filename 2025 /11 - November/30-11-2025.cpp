@@ -7,7 +7,7 @@ class Solution {
                 child[c]=NULL;
     	} 
     }; 
-    int countSubs(string& s) {
+    int countSubs(string& s) { 
        TrieNode* root=new TrieNode();
        int n=s.size(),ans=0;
        for(int i=0;i<n;i++){
