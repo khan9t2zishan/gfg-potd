@@ -9,7 +9,7 @@ class Solution {
     }; 
     int countSubs(string& s) { 
        TrieNode* root=new TrieNode();
-       int n=s.size(),ans=0;
+       int n=s.size(),ans=0; 
        for(int i=0;i<n;i++){
            TrieNode* curr=root;
            for(int j=i;j<n;j++){
