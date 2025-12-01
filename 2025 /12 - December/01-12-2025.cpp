@@ -2,7 +2,7 @@ class Solution {
   public:
     struct Trie{
         Trie* child[2];
-        int cnt;
+        int cnt; 
         Trie(){
             child[0]=child[1]=nullptr;
             cnt=0;
