@@ -5,7 +5,7 @@ public:
 
         // Build adjacency: can[from] contains target characters allowed from 'from'
         vector<vector<int>> can(26);
-        for (auto &pr : jumpsPairs) {
+        for (auto &pr : jumpsPairs) { 
             int a = pr[0] - 'a'; 
             int b = pr[1] - 'a';
             can[a].push_back(b);
