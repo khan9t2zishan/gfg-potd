@@ -22,7 +22,6 @@ class Solution {
         vector<pair<int,int>> arr(n);
         for(int i=0;i<n;i++)
             arr[i]={keys[i],freq[i]};
-
         memset(dp,-1,sizeof(dp));
         return recur(0,n-1,arr);
     }
