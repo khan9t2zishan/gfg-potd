@@ -4,7 +4,7 @@ class Solution {
         // code here
         int n = costs.size(), k = costs[0].size();
         
-        if(k == 1) {
+        if(k == 1) { 
             return n == 1 ? costs[0][0] : -1;
         }
         
