@@ -9,7 +9,7 @@ public:
                 int j=i+len-1; 
                 long long left = arr[i] + min((i+2<=j?dp[i+2][j]:0),(i+1<=j-1?dp[i+1][j-1]:0));
                 long long right = arr[j] + min((i<=j-2?dp[i][j-2]:0),(i+1<=j-1?dp[i+1][j-1]:0));
-                dp[i][j] = max(left,right);
+                dp[i][j] = max(left,right); 
             }
         }
         return dp[0][n-1];
