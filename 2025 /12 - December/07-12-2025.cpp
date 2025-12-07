@@ -2,7 +2,7 @@ class Solution {
   public:
     int distinctSubseq(string &str) {
         // code here
-        const long long mod = 1000000007;
+        const long long mod = 1000000007; 
         int n = str.size();
         vector<long long> dp(n + 1);
         vector<int> last(26, -1);
