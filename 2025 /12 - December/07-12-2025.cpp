@@ -6,7 +6,7 @@ class Solution {
         int n = str.size();
         vector<long long> dp(n + 1);
         vector<int> last(26, -1);
-        
+         
         dp[0] = 1;
         
         for (int i = 1; i <= n; i++) {
