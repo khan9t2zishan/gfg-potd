@@ -8,7 +8,7 @@ class Solution {
         // code here
         int n=arr.size();
         v.assign(n-1,vector<int>(n-1,0));
-        split.assign(n-1,vector<int>(n-1,-1));
+        split.assign(n-1,vector<int>(n-1,-1)); 
         
         for(int l=2; l<n; l++){
             for(int i=0; i<n-l; i++){
