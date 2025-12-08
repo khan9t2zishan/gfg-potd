@@ -4,7 +4,7 @@ class Solution {
   vector<vector<int>>split;
   
  
-    string matrixChainOrder(vector<int> &arr) {
+    string matrixChainOrder(vector<int> &arr) { 
         // code here
         int n=arr.size();
         v.assign(n-1,vector<int>(n-1,0));
