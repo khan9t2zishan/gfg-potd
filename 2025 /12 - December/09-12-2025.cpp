@@ -6,7 +6,7 @@ class Solution {
         vector<int>ans;
         for(int i=0;i < n;i++){
             int idx = abs(arr[i])-1;
-            if(arr[idx] > 0){
+            if(arr[idx] > 0){ 
                 arr[idx] *= -1;
             }else{
                 ans.push_back(idx+1);
