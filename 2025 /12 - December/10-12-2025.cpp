@@ -3,7 +3,7 @@ class Solution {
     vector<int> findTwoElement(vector<int>& arr) {
         // code here
         int n = arr.size();
-        int f = 0 , s = n;
+        int f = 0 , s = n; 
         vector<int> temp (n+1 , 0);
         for(int it : arr) temp[it]++; 
         for(int i = 1; i <= n ; i++){
