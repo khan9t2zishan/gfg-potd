@@ -3,7 +3,7 @@ class Solution {
     vector<int> constructArr(vector<int>& arr) {
         // code here
         int m=arr.size();
-        int n=( 1 + sqrt(1+8*m) )/2;
+        int n=( 1 + sqrt(1+8*m) )/2; 
         vector<int>ans(n);
         ans[0]=(arr[0]+arr[1]-arr[n-1])/2;
         for(int i=1; i<n; i++){
