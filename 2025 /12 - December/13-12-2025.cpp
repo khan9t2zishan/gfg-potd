@@ -4,7 +4,7 @@ class Solution {
         // code here
         int n= mat.size();
         for (int i =0;i < n;i++) {
-            swap(mat[i][i],mat[i][n-1-i]);
+            swap(mat[i][i],mat[i][n-1-i]); 
         } 
     }
 };
