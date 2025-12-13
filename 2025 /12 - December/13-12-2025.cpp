@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     void swapDiagonal(vector<vector<int>> &mat) {
         // code here
         int n= mat.size();
