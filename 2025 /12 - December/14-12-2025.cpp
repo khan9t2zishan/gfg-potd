@@ -3,7 +3,7 @@ class Solution {
     vector<int> prefixSum2D(vector<vector<int>> &mat, vector<vector<int>> &queries) {
         // code here
            for(auto &i: mat){
-            int sum=i[0];
+            int sum=i[0]; 
             for(int x=1;x<i.size();x++){
                 sum+=i[x];
                 i[x]=sum;
