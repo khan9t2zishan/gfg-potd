@@ -6,7 +6,7 @@ class Solution {
             int sum=i[0]; 
             for(int x=1;x<i.size();x++){
                 sum+=i[x];
-                i[x]=sum;
+                i[x]=sum; 
             }
         }
         for(int i=0;i<mat[0].size();i++){
