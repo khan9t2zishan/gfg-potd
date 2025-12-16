@@ -4,7 +4,7 @@ class Solution {
         // code here
         int n = s1.size(); 
         if (n != s2.size()) return false; 
-    
+     
         string text = s2 + s2; 
         string pat = s1;
     
