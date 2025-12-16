@@ -3,7 +3,7 @@ class Solution {
     bool areRotations(string &s1, string &s2) {
         // code here
         int n = s1.size(); 
-        if (n != s2.size()) return false;
+        if (n != s2.size()) return false; 
     
         string text = s2 + s2; 
         string pat = s1;
