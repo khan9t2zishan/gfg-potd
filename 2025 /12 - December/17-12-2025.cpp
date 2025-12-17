@@ -4,7 +4,7 @@ class Solution {
         // Code here
         sort(arr.begin(),arr.end());
         vector<vector<int>> res;
-        int start = arr[0][0],end = arr[0][1];
+        int start = arr[0][0],end = arr[0][1]; 
         for(int i=1;i<arr.size();i++){
             if(end>=arr[i][0]){
                 end = max(end,arr[i][1]); 
