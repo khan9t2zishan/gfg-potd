@@ -9,7 +9,7 @@ class Solution {
             if(end>=arr[i][0]){
                 end = max(end,arr[i][1]);
                 continue;
-            }
+            } 
             res.push_back({start,end});
             start = arr[i][0];
             end = arr[i][1];  
