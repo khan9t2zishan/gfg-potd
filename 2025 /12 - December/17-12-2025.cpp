@@ -12,7 +12,7 @@ class Solution {
             }
             res.push_back({start,end});
             start = arr[i][0];
-            end = arr[i][1]; 
+            end = arr[i][1];  
         }
         res.push_back({start,end});
         return res;
