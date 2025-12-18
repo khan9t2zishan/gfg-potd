@@ -4,7 +4,7 @@ class Solution {
         // code here
         int n = arr.size();
         
-        int idx = 0;
+        int idx = 0; 
         for (int i = 0; i < n; i++) {
             if (arr[i] % 2 != 0) {
                 swap(arr[i], arr[idx]); 
