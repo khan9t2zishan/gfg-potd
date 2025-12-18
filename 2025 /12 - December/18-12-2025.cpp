@@ -1,6 +1,6 @@
 class Solution {
   public:
-    void sortIt(vector<int>& arr) {
+    void sortIt(vector<int>& arr) { 
         // code here
         int n = arr.size();
         
