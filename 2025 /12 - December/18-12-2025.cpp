@@ -6,7 +6,7 @@ class Solution {
         
         int idx = 0; 
         for (int i = 0; i < n; i++) {
-            if (arr[i] % 2 != 0) { 
+            if (arr[i] % 2 != 0) {  
                 swap(arr[i], arr[idx]);  
                 idx++;  
             }
