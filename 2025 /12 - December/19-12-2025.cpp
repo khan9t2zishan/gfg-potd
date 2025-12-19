@@ -11,6 +11,6 @@ class Solution {
             res += abs(chairs[i]-passengers[i]); 
         }
         
-        return res;
+        return res;  
     }
 };
