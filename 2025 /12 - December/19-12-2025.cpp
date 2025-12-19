@@ -8,7 +8,7 @@ class Solution {
         int res = 0;
         
         for(int i=0;i<chairs.size();i++){
-            res += abs(chairs[i]-passengers[i]);
+            res += abs(chairs[i]-passengers[i]); 
         }
         
         return res;
