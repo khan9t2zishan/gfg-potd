@@ -8,7 +8,7 @@ class Solution {
           if(arr[i]==k)
           return i;
           if(arr[i]>k) return i;
-      }
+      } 
       if(i==n) return i;
     }
 };
