@@ -1,6 +1,6 @@
 class Solution {
   public:
-    vector<int> countXInRange(vector<int>& arr, vector<vector<int>>& queries) {
+    vector<int> countXInRange(vector<int>& arr, vector<vector<int>>& queries) { 
         // code here
         int n = arr.size();
         int mx = *max_element(arr.begin(), arr.end());
