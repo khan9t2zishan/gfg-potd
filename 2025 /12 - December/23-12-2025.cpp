@@ -3,7 +3,7 @@ class Solution {
     vector<int> cntInRange(vector<int> &arr, vector<vector<int>> &queries) {
         // code here
         int a,b;
-        vector<int> v;
+        vector<int> v; 
         sort(arr.begin(),arr.end());
 
         for(int i=0;i<queries.size();i++)
