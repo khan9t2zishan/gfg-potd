@@ -1,4 +1,4 @@
-class Solution
+class Solution 
 {
 public:
     bool check(int num, vector<vector<int>> &mat, int k)
