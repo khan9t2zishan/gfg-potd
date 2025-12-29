@@ -5,7 +5,7 @@ class Solution {
         int n1=a.size();
         int n2=b.size();
         int ind1=0,ind2=0, cnt=0;
-        while(ind1<n1 && ind2<n2){
+        while(ind1<n1 && ind2<n2){ 
             if(a[ind1]<=b[ind2]){
                 if(cnt==k-1)return a[ind1];
                 ind1++;
