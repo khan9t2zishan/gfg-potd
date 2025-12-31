@@ -10,7 +10,7 @@ class Node {
     }
 };
 */
-class Solution {
+class Solution { 
   public:
     Node* reverse(Node* &node){
         Node* prev=NULL,*curr=node;
