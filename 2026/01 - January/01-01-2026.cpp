@@ -10,7 +10,7 @@ public:
     }
 };
 */
-
+ 
 class Solution {
   public:
     Node* intersectPoint(Node* head1, Node* head2) {
