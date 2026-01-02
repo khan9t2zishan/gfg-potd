@@ -6,7 +6,7 @@ class Solution {
        int r = arr.size()-1; 
        int m = 0;
        
-       while(r>=l && l<=r && m<=r){
+       while(r>=l && l<=r && m<=r){ 
            
            if(m<l)m=l;
            else if(arr[m]==0){
