@@ -10,7 +10,7 @@ public:
         next = NULL;
         bottom = NULL;
     }
-};
+}; 
 */
 
 class Solution {
