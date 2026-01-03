@@ -7,7 +7,7 @@ public:
  
     Node(int x) {
         data = x;
-        next = NULL;
+        next = NULL; 
         bottom = NULL;
     }
 }; 
