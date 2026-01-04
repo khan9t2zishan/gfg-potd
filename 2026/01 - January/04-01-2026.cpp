@@ -5,7 +5,7 @@ class Solution {
        int l = 0;
        int r = arr.size()-1;
        int m = 0;
-       
+        
        while(r>=l && l<=r && m<=r){
            
            if(m<l)m=l;
