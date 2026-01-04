@@ -10,7 +10,7 @@ class Solution {
            
            if(m<l)m=l;
            else if(arr[m]==0){
-               swap(arr[m],arr[l]);
+               swap(arr[m],arr[l]); 
                l++;
            }
            else if(arr[m]==2){
