@@ -3,7 +3,7 @@ class Solution {
     void sort012(vector<int>& arr) {
         // code here
        int l = 0;
-       int r = arr.size()-1;
+       int r = arr.size()-1; 
        int m = 0;
         
        while(r>=l && l<=r && m<=r){
