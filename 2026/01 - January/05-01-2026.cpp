@@ -8,6 +8,6 @@ class Solution {
             if(i - k >= 0) x -= arr[i - k];
             ans = max(ans, x);
         }
-        return ans;
+        return ans; 
     }
 };
