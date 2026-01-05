@@ -9,5 +9,5 @@ class Solution {
             ans = max(ans, x);
         }
         return ans; 
-    }
+    } 
 };
