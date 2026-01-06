@@ -9,5 +9,5 @@ class Solution {
             if(i >= k - 1) ans = max(ans, x);
         }
         return ans;
-    }
+    } 
 };
