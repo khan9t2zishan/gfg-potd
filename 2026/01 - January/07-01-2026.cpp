@@ -5,7 +5,7 @@ class Solution {
         int n = arr.size(); 
         unordered_map<int, int> freq;
         vector<int> ans;
-        
+         
         for (int i = 0; i < k; i++) {
             freq[arr[i]]++;
         }
