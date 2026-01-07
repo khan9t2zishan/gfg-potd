@@ -9,7 +9,7 @@ class Solution {
         for (int i = 0; i < k; i++) {
             freq[arr[i]]++;
         }
-        ans.push_back(freq.size());
+        ans.push_back(freq.size()); 
         
         int j = 0;
         for (int i = k; i < n; i++) {
