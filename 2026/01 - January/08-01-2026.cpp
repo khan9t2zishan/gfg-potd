@@ -8,7 +8,7 @@ class Solution {
                 oddIndices.push_back(i);
         }
         int i=0; 
-        int j=k-1;
+        int j=k-1; 
         int ans=0;
         while(j<oddIndices.size()){
             int a, b;
