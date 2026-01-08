@@ -7,7 +7,7 @@ class Solution {
             if(arr[i]%2) 
                 oddIndices.push_back(i);
         }
-        int i=0;
+        int i=0; 
         int j=k-1;
         int ans=0;
         while(j<oddIndices.size()){
