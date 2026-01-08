@@ -4,7 +4,7 @@ class Solution {
         // code here
         vector<int> oddIndices;  //stores all odd element indices.
         for(int i=0;i<arr.size();i++){
-            if(arr[i]%2)
+            if(arr[i]%2) 
                 oddIndices.push_back(i);
         }
         int i=0;
