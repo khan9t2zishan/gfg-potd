@@ -17,7 +17,7 @@ class Solution {
                 int ed = i; 
                 j--; 
                 
-                while(j >= 0)
+                while(j >= 0) 
                 {
                     if(s1[i] == s2[j])
                         j--;
