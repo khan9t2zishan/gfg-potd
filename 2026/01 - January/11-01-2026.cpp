@@ -13,7 +13,7 @@ class Solution {
             
             if(j == s2.length()) 
             {
-                
+                 
                 int ed = i; 
                 j--; 
                 
