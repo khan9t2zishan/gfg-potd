@@ -5,7 +5,7 @@ class Solution {
         int i = 0, j = 0; 
         int minlen = INT_MAX ; 
         int st = -1 ;
-        for(; i < s1.length(); i++)
+        for(; i < s1.length(); i++) 
         {
             if(s1[i] == s2[j]) {
                 j++; 
