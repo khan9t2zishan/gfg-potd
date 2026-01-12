@@ -1,7 +1,7 @@
 class Solution {
   public:
     vector<int> maxOfSubarrays(vector<int>& arr, int k) {
-        // code here
+        // code here 
         pair<int, int> mx = {INT_MIN, 0}; 
         vector<int> ans;
         for(int i=0;i<arr.size();i++){
