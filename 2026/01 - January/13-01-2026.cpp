@@ -5,7 +5,7 @@ class Solution {
         unordered_map<int,int>m;
         for(int i=0;i<arr.size();i++){
             if(arr[i]==5){
-                m[arr[i]]++;
+                m[arr[i]]++; 
             } else if(arr[i]==10 && m[5]>0){
                 m[5]-=1;
                 m[arr[i]]++;
