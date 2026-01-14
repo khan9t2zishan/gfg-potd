@@ -1,7 +1,7 @@
 class Solution {
   public:
     int catchThieves(vector<char> &arr, int k) {
-        // Code here
+        // Code here 
         int n=arr.size();
         int p=0,t=0,cnt=0;
         while(p<n && t<n){
