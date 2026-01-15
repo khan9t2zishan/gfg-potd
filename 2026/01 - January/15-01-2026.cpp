@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int minCandy(vector<int> &arr) {
+    int minCandy(vector<int> &arr) { 
         // code here
         int n=arr.size();
         
