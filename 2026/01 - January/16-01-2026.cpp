@@ -3,7 +3,7 @@ class Solution {
     int minMen(vector<int>& arr) {
         // code here
         int n = arr.size(); 
-        vector<int> dp(n, -1);
+        vector<int> dp(n, -1); 
         for(int i = 0; i < n; i++) {
             if(arr[i] != -1) {
                 int l = max(0, i - arr[i]);
