@@ -1,6 +1,6 @@
 class Solution {
   public:
-    bool checkRedundancy(string &s) {
+    bool checkRedundancy(string &s) { 
         // code here
         stack<pair<int, int>> st;
         int t = 0; 
