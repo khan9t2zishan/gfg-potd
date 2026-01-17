@@ -3,7 +3,7 @@ class Solution {
     bool checkRedundancy(string &s) {
         // code here
         stack<pair<int, int>> st;
-        int t = 0;
+        int t = 0; 
         for(int i=0; i<s.size(); i++) {
             if(s[i] == '(') {
                 if(t && !st.empty()) st.top().second++;
