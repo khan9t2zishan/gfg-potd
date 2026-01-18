@@ -2,7 +2,7 @@ class Solution {
   public:
     vector<int> nextFreqGreater(vector<int>& arr) {
         // code here
-        int n = arr.size();
+        int n = arr.size(); 
         
         stack<int> st;
         map<int, int> mp;
