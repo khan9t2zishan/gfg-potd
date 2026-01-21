@@ -3,7 +3,7 @@ class Solution {
     vector<int> calculateSpan(vector<int>& arr) {
         // code here
         vector<int> res(arr.size());
-        stack<int> st;
+        stack<int> st; 
         for(int i = 0;i<arr.size();i++)
         {
             while(!st.empty() and arr[st.top()]<=arr[i]){
