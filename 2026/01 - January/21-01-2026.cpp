@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     vector<int> calculateSpan(vector<int>& arr) {
         // code here
         vector<int> res(arr.size());
