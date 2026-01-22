@@ -1,6 +1,6 @@
 class Solution {
-  public:
-    int subarrayRanges(vector<int>& v) {
+  public: 
+    int subarrayRanges(vector<int>& v) { 
         // code here 
         int n = v.size();
         long long ans = 0;
