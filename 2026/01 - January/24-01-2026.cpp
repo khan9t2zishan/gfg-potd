@@ -3,7 +3,7 @@ class Solution {
     int josephus(int n, int k) {
         // code here
         int p = 0;
-        int num = 2;
+        int num = 2; 
         while(num<=n){
             p = (k+p)%num;
             num++;
