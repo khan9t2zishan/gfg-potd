@@ -1,7 +1,7 @@
 class Solution {
   public:
     int findWays(int n) {
-        // code here
+        // code here 
         if(n%2 ==1) return 0;
         return helper(0, 0,0,n);
         
