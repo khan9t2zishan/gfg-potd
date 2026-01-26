@@ -1,6 +1,6 @@
 class Solution {
   public:
-    vector<vector<int>> permuteDist(vector<int>& arr) {
+    vector<vector<int>> permuteDist(vector<int>& arr) { 
         // code here
         vector<vector<int>> ans; 
         backtrack(arr, 0, ans); 
