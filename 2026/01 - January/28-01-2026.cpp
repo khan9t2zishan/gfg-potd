@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
       void find(int index,int end,vector<int> &temp,vector<int> &arr,int sum){
         if(index==end){
             temp.push_back(sum);
