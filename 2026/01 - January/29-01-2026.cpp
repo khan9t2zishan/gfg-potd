@@ -1,7 +1,7 @@
 class Solution {
   public:
     string firstNonRepeating(string &s) {
-        // code here
+        // code here 
         int n = s.length();
         vector<int> freq(26, 0);
         queue<int> q;
