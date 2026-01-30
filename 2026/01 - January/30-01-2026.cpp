@@ -1,7 +1,7 @@
 class Solution {
   public:
     void rearrangeQueue(queue<int> &q) {
-        // code here
+        // code here 
         queue<int> q1 , q2;
         int n = q.size();
         
