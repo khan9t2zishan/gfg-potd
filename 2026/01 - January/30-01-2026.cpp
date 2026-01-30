@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     void rearrangeQueue(queue<int> &q) {
         // code here 
         queue<int> q1 , q2;
