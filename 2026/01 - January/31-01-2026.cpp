@@ -1,5 +1,5 @@
 class kQueues {
-
+ 
   public:
     int cnt, nn;
   vector<queue<int>>vq;
