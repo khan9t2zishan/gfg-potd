@@ -3,7 +3,7 @@ class kQueues {
   public:
     int cnt, nn;
   vector<queue<int>>vq;
-    kQueues(int n, int k) {
+    kQueues(int n, int k) { 
         cnt=0; nn=n;
         vq.resize(k);
     }
