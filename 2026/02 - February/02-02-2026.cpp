@@ -5,7 +5,7 @@ class Solution {
         int mx_curr = 0, mxsum = -1e9;
         int mn_curr = 0, mnsum = 1e9;
         int n = arr.size(), total = 0;
-        for(int i=0; i<n; i++){
+        for(int i=0; i<n; i++){ 
             total += arr[i];
             mx_curr += arr[i];
             mn_curr += arr[i];
