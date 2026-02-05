@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     int maxOnes(vector<int>& arr, int k) {
         // code here
         int n = arr.size();
