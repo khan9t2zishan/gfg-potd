@@ -2,7 +2,7 @@ class Solution {
   public:
     vector<int> smallestDiff(vector<int>& a, vector<int>& b, vector<int>& c) {
         // code here.
-        int n = a.size(); 
+        int n = a.size();  
         sort(a.begin(), a.end());
         sort(b.begin(), b.end());
         sort(c.begin(), c.end());
