@@ -9,7 +9,7 @@ class Solution {
 
         int i = 0, j = 0, k = 0;
         int mc = INT_MAX, ms = INT_MAX;
-        vector<int> ans;
+        vector<int> ans; 
 
         while (i < n && j < n && k < n) {
             int mini = min({a[i], b[j], c[k]});
