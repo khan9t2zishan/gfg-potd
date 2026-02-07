@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     int maxSum(vector<int> &arr) {
         // code here 
         int n = arr.size();
