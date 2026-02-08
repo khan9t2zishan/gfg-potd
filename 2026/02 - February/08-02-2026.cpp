@@ -5,7 +5,7 @@ class Solution {
         int n=arr.size();
         int pre=1, suf=1, maxi=-1e9;
         
-        for(int i=0; i<n; i++){
+        for(int i=0; i<n; i++){ 
             pre*=arr[i];
             suf*=arr[n-i-1];
             maxi=max(maxi, max(pre, suf));
