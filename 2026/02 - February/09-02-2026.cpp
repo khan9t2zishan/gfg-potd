@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     int findKRotation(vector<int> &arr) {
         // Code Here 
         int start =0; 
