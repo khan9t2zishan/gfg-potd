@@ -2,7 +2,7 @@ class Solution {
   public:
     int findKRotation(vector<int> &arr) {
         // Code Here
-        int start =0;
+        int start =0; 
         int end = arr.size()-1;
         int ans = 0;
         int n = arr.size();
