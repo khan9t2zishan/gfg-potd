@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     bool good(vector<int>& arr, int mid, int k){
         int n=arr.size();  
         int ans=0;
