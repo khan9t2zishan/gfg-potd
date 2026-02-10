@@ -1,6 +1,6 @@
 class Solution {
   public: 
-    bool good(vector<int>& arr, int mid, int k){
+    bool good(vector<int>& arr, int mid, int k){ 
         int n=arr.size();   
         int ans=0;
         for(int i=0;i<n;i++){ 
