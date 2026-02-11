@@ -1,7 +1,7 @@
 class Solution {
   public:
     long long getCost(int H,vector<int>& heights,vector<int>& cost){
-        long long total=0;
+        long long total=0; 
         
         for(int i=0;i<heights.size();i++){
             total+=1LL*abs(heights[i]-H)*cost[i];
