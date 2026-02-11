@@ -7,7 +7,7 @@ class Solution {
             total+=1LL*abs(heights[i]-H)*cost[i];
         }
         
-        return total;
+        return total; 
     }
     
     int minCost(vector<int>& heights, vector<int>& cost){
