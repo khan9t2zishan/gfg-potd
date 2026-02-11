@@ -15,7 +15,7 @@ class Solution {
         int low=INT_MAX;
         int high=INT_MIN;
         int n=heights.size();
-        
+      
         for(int i=0;i<n;i++){
             low=min(low,heights[i]);
             high=max(high,heights[i]);
