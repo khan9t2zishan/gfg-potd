@@ -4,7 +4,7 @@ class Solution {
         int n = a.size();
         int mn = *min_element(a.begin(), a.end());
         int mx = mn + k + 1;
-        
+         
         auto f = [&](int ht) {
             long long days = 0;
             vector<int> flower(n + 1);
