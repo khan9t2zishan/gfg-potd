@@ -5,7 +5,7 @@ class Solution {
         int mn = *min_element(a.begin(), a.end()); 
         int mx = mn + k + 1;  
          
-        auto f = [&](int ht) {
+        auto f = [&](int ht) { 
             long long days = 0;
             vector<int> flower(n + 1);
             int diff = max(0, ht - a[0]);
