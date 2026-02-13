@@ -6,7 +6,7 @@ class Solution {
             int d = temp%10;
             sum += d;
             temp /= 10;
-        }
+        } 
         return d <= (num-sum);
     }
   public:
