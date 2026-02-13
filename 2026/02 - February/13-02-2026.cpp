@@ -4,7 +4,7 @@ class Solution {
         int temp = num; 
         while(temp>0){
             int d = temp%10;
-            sum += d;
+            sum += d; 
             temp /= 10;
         } 
         return d <= (num-sum);
