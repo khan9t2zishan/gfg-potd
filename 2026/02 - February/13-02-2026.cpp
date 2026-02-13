@@ -1,7 +1,7 @@
 class Solution {
     int check(int& d,int num){
         int sum = 0;
-        int temp = num;
+        int temp = num; 
         while(temp>0){
             int d = temp%10;
             sum += d;
