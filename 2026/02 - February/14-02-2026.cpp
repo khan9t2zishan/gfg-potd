@@ -5,7 +5,7 @@ class Solution {
         int n = (int)arr.size();
         int low = *max_element(arr.begin(),arr.end());
         int s = 0;
-        for(auto it:arr)
+        for(auto it:arr) 
         {
             s+=it;
         }
