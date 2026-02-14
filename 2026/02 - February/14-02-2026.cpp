@@ -1,7 +1,7 @@
 class Solution {
   public:
     int minTime(vector<int>& arr, int k) {
-        // code here
+        // code here 
         int n = (int)arr.size();
         int low = *max_element(arr.begin(),arr.end());
         int s = 0;
