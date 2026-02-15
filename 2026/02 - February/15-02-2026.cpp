@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int findMinDiff(vector<int>& a, int m) {
+    int findMinDiff(vector<int>& a, int m) { 
         // code here
         int n=a.size(); 
         sort(a.begin(),a.end());  
