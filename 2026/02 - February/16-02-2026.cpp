@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     bool canAttend(vector<vector<int>> &arr) {
         // Code Here 
         sort(arr.begin(), arr.end());
