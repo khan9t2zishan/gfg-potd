@@ -1,7 +1,7 @@
 class Solution {
   public:
     int Merge(vector<int> &arr, int l, int m, int r)
-    {
+    { 
         vector<int> merged(r-l+1);
         int i = l, j = m+1, k = 0, cnt = 0;
         while(i<m+1 and j<r+1){
