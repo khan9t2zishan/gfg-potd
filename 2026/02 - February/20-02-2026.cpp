@@ -4,7 +4,7 @@ class cmp {
         return s1 + s2 > s2 + s1;
     }
     
-};
+}; 
 
 class Solution {
   public:
