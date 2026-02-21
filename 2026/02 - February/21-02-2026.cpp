@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
   public:
     int hIndex(vector<int>& citations) {
         // code here
