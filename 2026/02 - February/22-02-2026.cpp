@@ -7,7 +7,7 @@ class Solution {
         unordered_map<int, int> mp;
         mp.reserve(arr.size()); 
         mp[0] = 1;               
-
+ 
         for (const int& it : arr) {
             c ^= it;
             ct += mp[c ^ k];    
