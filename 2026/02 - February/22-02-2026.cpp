@@ -1,7 +1,7 @@
 class Solution {
   public:
     long subarrayXor(vector<int> &arr, int k) {
-        // code here 
+        // code here  
         long ct = 0;
         int c = 0;
         unordered_map<int, int> mp;
