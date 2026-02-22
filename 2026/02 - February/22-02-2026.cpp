@@ -6,7 +6,7 @@ class Solution {
         int c = 0;
         unordered_map<int, int> mp;
         mp.reserve(arr.size()); 
-        mp[0] = 1;              
+        mp[0] = 1;               
 
         for (const int& it : arr) {
             c ^= it;
