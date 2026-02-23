@@ -1,6 +1,6 @@
 class Solution {
   public:
-    vector<int> findUnion(vector<int>& a, vector<int>& b) {
+    vector<int> findUnion(vector<int>& a, vector<int>& b) { 
         // code here
         vector<int>ans;
         set<int>s;
