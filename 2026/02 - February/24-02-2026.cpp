@@ -1,7 +1,7 @@
 class Solution {
   public:
     int equalSumSpan(vector<int> &a1, vector<int> &a2) {
-        // code here 
+        // code here  
         int n = a1.size(), ans = 0;
         unordered_map<int, int> mp;
         mp[0] = -1;
