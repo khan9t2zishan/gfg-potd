@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int longestSubarray(vector<int> &arr, int k) { 
+    int longestSubarray(vector<int> &arr, int k) {  
         // Code here  
         int n = arr.size(), ans = 0, ct = 0;
         unordered_map<int, int> mp;
