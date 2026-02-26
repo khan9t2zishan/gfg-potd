@@ -1,6 +1,6 @@
 class Solution {
   public: 
-    bool areIsomorphic(string &s1, string &s2) {  
+    bool areIsomorphic(string &s1, string &s2) {   
         // code here
         int n=s1.length(); 
         int f1[26], f2[26];
