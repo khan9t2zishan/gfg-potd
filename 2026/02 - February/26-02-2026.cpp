@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     bool areIsomorphic(string &s1, string &s2) { 
         // code here
         int n=s1.length(); 
