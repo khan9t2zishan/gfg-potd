@@ -2,7 +2,7 @@ class Solution {
   public:
     bool areIsomorphic(string &s1, string &s2) {
         // code here
-        int n=s1.length();
+        int n=s1.length(); 
         int f1[26], f2[26];
         for(int i=0; i<26; i++){
             f1[i]=-1;
