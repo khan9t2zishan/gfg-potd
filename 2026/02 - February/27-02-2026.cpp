@@ -2,7 +2,7 @@ class Solution {
   public:
     int countSquare(vector<vector<int>>& mat, int x) {
         // code here
-        int n = mat.size(), m = mat[0].size();
+        int n = mat.size(), m = mat[0].size(); 
 
         // Step 1: Create prefix sum matrix
         vector<vector<int>> prefix(n, vector<int>(m, 0));
