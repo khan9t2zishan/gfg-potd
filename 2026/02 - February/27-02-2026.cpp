@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int countSquare(vector<vector<int>>& mat, int x) {
+    int countSquare(vector<vector<int>>& mat, int x) { 
         // code here
         int n = mat.size(), m = mat[0].size();  
 
