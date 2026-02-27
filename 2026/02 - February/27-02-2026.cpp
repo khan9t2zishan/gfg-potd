@@ -7,7 +7,7 @@ class Solution {
         // Step 1: Create prefix sum matrix
         vector<vector<int>> prefix(n, vector<int>(m, 0));
 
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++) 
         {
             for (int j = 0; j < m; j++)
             {
