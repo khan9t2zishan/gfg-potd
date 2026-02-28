@@ -2,7 +2,7 @@ class Solution {
   public:
     vector<int> findClosestPair(vector<int> &arr1, vector<int> &arr2, int x) {
         // code here
-        int a=0,b=0;   
+        int a=0,b=0;    
         int n = arr1.size();
         int m = arr2.size();
         
