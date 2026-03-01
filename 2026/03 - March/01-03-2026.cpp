@@ -1,6 +1,6 @@
 class Solution {
   public:
-    void pushZerosToEnd(vector<int>& arr) {
+    void pushZerosToEnd(vector<int>& arr) { 
         // code here
         int pos=0;
         int n=arr.size();
