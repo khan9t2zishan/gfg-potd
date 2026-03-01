@@ -1,7 +1,7 @@
 class Solution {
   public:
     void pushZerosToEnd(vector<int>& arr) {   
-        // code here
+        // code here 
         int pos=0;
         int n=arr.size();
         //shifting of non zero elements 
