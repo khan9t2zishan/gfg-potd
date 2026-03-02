@@ -1,7 +1,7 @@
 class Solution { 
   public:
     int maxWater(vector<int> &arr) { 
-        // code here
+        // code here 
         int n=arr.size();
         int lmax=0, rmax=0, total=0; 
         int l=0, r=n-1;
