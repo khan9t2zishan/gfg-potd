@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int totalElements(vector<int> &arr) {  
+    int totalElements(vector<int> &arr) {   
         // code here
         int l=0,r=0,n,count=0,ans=-1e9;
         unordered_map<int,int> mp;
