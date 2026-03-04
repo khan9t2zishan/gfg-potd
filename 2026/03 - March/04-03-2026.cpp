@@ -1,7 +1,7 @@
 class Solution {
   public:
     int maxSubarrayXOR(vector<int>& arr, int k) {
-        // code here
+        // code here 
          int n = arr.size();
            
            int maxxor = 0;
