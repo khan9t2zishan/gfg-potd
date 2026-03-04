@@ -9,7 +9,7 @@ class Solution {
            
            for(int i=0;i<n;i++){
                   cx^=arr[i];   
-                 
+                  
                   if(i==k-1) {
                       maxxor = max(maxxor,cx);
                        cx^=arr[i-k]; 
