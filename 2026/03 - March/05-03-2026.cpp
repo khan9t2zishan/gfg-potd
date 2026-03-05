@@ -1,7 +1,7 @@
 class Solution {
   public:
     int longestKSubstr(string &s, int k) { 
-        // code here
+        // code here 
         int n=s.length();
         int i=0, j=0, cnt=0, maxi=-1e9;
         int f[26]={0};
