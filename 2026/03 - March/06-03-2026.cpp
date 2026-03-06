@@ -3,7 +3,7 @@ class Solution {
     string minWindow(string &s, string &p) {
         // code here
         int m=s.length(), n=p.length();
-        if(m<n) return "";
+        if(m<n) return ""; 
         
         int minLen=1e9, left=0, start=-1, cnt=0;
         unordered_map<char,int> mp;
