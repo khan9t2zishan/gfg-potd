@@ -1,6 +1,6 @@
 class Solution {
   public:
-    string minWindow(string &s, string &p) {
+    string minWindow(string &s, string &p) { 
         // code here
         int m=s.length(), n=p.length();
         if(m<n) return ""; 
