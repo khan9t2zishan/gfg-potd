@@ -1,6 +1,6 @@
 class Solution {
   public:
-    bool pythagoreanTriplet(vector<int>& arr) {
+    bool pythagoreanTriplet(vector<int>& arr) { 
         // code here
         unordered_set<int> st;
         for(auto &e : arr){
