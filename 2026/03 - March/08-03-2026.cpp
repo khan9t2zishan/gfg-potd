@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     bool pythagoreanTriplet(vector<int>& arr) { 
         // code here
         unordered_set<int> st;
