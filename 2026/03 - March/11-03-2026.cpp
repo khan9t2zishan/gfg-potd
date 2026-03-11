@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int sumSubMins(vector<int> &arr) {
+    int sumSubMins(vector<int> &arr) { 
         // code here 
         const int MOD = 1e9 + 7;
         long long ans = 0;
