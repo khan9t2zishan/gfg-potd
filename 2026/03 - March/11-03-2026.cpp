@@ -4,7 +4,7 @@ class Solution {
         // code here 
         const int MOD = 1e9 + 7;
         long long ans = 0;
-        int n = arr.size();
+        int n = arr.size(); 
         
         stack<int> st;
         st.push(-1); // sentinel
