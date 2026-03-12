@@ -5,7 +5,7 @@ public:
         int flip = 0, ans = 0;
 
         for(int i = 0; i < n; i++) { 
-            
+             
             if(i >= k && arr[i-k] == 2)
                 flip ^= 1;
 
