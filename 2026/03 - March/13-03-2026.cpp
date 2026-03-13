@@ -8,7 +8,7 @@ class Solution{
             ans.push_back(temp);
         }
         return;
-    } 
+    }  
     
     string t = "";
     int n = s.size();
