@@ -9,7 +9,7 @@ class Node {
         data = val;
         left = NULL;
         right = NULL;
-    }
+    } 
 };
 */
 
