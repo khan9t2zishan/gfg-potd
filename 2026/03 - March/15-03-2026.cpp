@@ -5,7 +5,7 @@ class Node {
     Node* left;
     Node* right;
  
-    Node(int val) {
+    Node(int val) { 
         data = val;
         left = NULL;
         right = NULL;
