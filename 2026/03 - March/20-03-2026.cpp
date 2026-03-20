@@ -6,7 +6,7 @@ class Node {
     Node *right;
  
     Node(int x){
-        data = x;
+        data = x; 
         left = NULL;
         right = NULL;
     }
