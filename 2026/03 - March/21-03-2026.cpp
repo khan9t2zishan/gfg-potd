@@ -10,7 +10,7 @@ class Solution {
             else r = m-1;
         }
         return -1;
-    } 
+    }  
     vector<int> countBSTs(vector<int>& arr) {
         int n = arr.size();
         
