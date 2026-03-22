@@ -3,7 +3,7 @@ class Solution {
    int orangesRot(vector<vector<int>>& grid) {
         if (grid.empty()) return 0;
         
-        int n = grid.size(); 
+        int n = grid.size();  
         int m = grid[0].size();
         queue<pair<int, int>> q;  
         int freshCount = 0;
