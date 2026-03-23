@@ -8,7 +8,7 @@ class Solution {
         
         for(auto it:edges){
             mp[it[0]]=it[1];
-            if(it[0]==it[1]) ans=1;
+            if(it[0]==it[1]) ans=1; 
         } 
         
         for(int i=0;i<V;i++){
