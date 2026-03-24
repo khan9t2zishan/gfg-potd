@@ -5,7 +5,7 @@ class Solution {
         vector<int>adj[n]; 
         vector<int>ind(n, 0);
         for(auto &it:prerequisites){
-            int u=it[0];
+            int u=it[0]; 
             int v=it[1];
             adj[v].push_back(u);
             ind[u]++;
