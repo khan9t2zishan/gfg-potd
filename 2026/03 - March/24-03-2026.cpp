@@ -2,7 +2,7 @@ class Solution {
   public:
     bool canFinish(int n, vector<vector<int>>& prerequisites) {
         // Code here
-        vector<int>adj[n];
+        vector<int>adj[n]; 
         vector<int>ind(n, 0);
         for(auto &it:prerequisites){
             int u=it[0];
