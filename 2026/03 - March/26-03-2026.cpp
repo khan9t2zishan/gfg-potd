@@ -5,9 +5,9 @@ class Solution {
         vector<pair<int,int>> adj[V];
         priority_queue<pair<int,int>, 
                        vector<pair<int,int>> ,
-                       greater<pair<int,int>>> pq;
+                       greater<pair<int,int>>> pq; 
                        
-        vector<int> dist(V,INT_MAX), ways(V,0);
+        vector<int> dist(V,INT_MAX), ways(V,0); 
         
         for(int i = 0; i < edges.size(); i++)
         {
