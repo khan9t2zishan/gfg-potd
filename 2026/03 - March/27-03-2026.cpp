@@ -6,7 +6,7 @@ class Solution {
         vector<vector<int>> curr(m, vector<int>(m, 0)), next(m, vector<int>(m, 0));
         for(int r = n - 1; r >= 0; r--) {
             for(int c1 = 0; c1 < m; c1++) {
-                for(int c2 = 0; c2 < m; c2++) {
+                for(int c2 = 0; c2 < m; c2++) { 
                     curr[c1][c2] = -1e9;
                     for(int u = -1; u <= 1; u++) {
                         for(int v = -1; v <= 1; v++) {
