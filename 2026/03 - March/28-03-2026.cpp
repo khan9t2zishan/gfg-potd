@@ -6,7 +6,7 @@ class Solution {
         for (auto &e : edges) {
             adj[e[0]].push_back(e[1]);
             adj[e[1]].push_back(e[0]);
-        } 
+        }  
 
         vector<int> tin(V, -1), low(V), ap(V, 0);
         int timer = 0;
