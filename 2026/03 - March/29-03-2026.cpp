@@ -7,7 +7,7 @@ class Solution {
         // Calculate total sum of array 
         for (int num : arr) {
             totalSum += num;
-        }
+        } 
         
         // If totalSum + diff is odd, partition is impossible
         if ((totalSum + diff) % 2 != 0) {
