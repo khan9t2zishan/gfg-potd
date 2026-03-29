@@ -4,7 +4,7 @@ class Solution {
         // Code here
         int totalSum = 0;
         
-        // Calculate total sum of array
+        // Calculate total sum of array 
         for (int num : arr) {
             totalSum += num;
         }
