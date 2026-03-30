@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int minCost(vector<vector<int>>& houses) {
+    int minCost(vector<vector<int>>& houses) { 
         // code here
         int n = houses.size(); 
         int ans = 0;
