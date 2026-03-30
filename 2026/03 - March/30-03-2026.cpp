@@ -2,7 +2,7 @@ class Solution {
   public:
     int minCost(vector<vector<int>>& houses) { 
         // code here  
-        int n = houses.size(); 
+        int n = houses.size();  
         int ans = 0;
         vector<pair<int, int>> adj[n]; 
         for (int i = 0; i < n; i++) { 
