@@ -5,7 +5,7 @@ class Solution {
         int n = houses.size(); 
         int ans = 0;
         vector<pair<int, int>> adj[n]; 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) { 
             for (int j = i + 1; j < n; j++) {
                 int distance = abs(houses[j][0] - houses[i][0]) + abs(houses[j][1] - houses[i][1]);
 
