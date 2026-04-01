@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int countStrings(int n) {
+    int countStrings(int n) { 
         // code here
         int a = 1;
         int b = 1;
