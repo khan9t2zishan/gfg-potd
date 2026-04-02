@@ -1,5 +1,5 @@
 class Solution {
-  public: 
+  public:  
     int countWays(int n, int k) { 
         // code here
         vector<int> dp(n+1);
