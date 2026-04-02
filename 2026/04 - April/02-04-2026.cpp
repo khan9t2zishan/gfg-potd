@@ -1,6 +1,6 @@
 class Solution {
   public:  
-    int countWays(int n, int k) { 
+    int countWays(int n, int k) {  
         // code here 
         vector<int> dp(n+1);
         dp[1] = k; dp[2] = k*k;
