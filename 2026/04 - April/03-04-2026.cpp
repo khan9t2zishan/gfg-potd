@@ -8,7 +8,7 @@ class Solution {
         unordered_map<int, vector<int>>mpp;
 
         for(int i=0; i<n; i++){
-          for(int j=0; j<n; j++){
+          for(int j=0; j<n; j++){ 
             mpp[i+j].push_back(mat[i][j]);
           }
         } 
