@@ -11,7 +11,7 @@ class Solution {
           for(int j=0; j<n; j++){
             mpp[i+j].push_back(mat[i][j]);
           }
-        }
+        } 
 
         for(int i=0; i<=n*n; i++){
             for(int &j:mpp[i]){
