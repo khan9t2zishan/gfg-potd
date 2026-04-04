@@ -6,7 +6,7 @@ class Solution {
         
         vector<string> result(size, string(n, '0'));
         
-        for (int i = 1; i < size; i++) {
+        for (int i = 1; i < size; i++) { 
             int gray = i ^ (i >> 1);
             string& s = result[i];
             
