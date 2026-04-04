@@ -3,7 +3,7 @@ class Solution {
     vector<string> graycode(int n) {
         // code here
         const int size = 1 << n; 
-        
+         
         vector<string> result(size, string(n, '0'));
          
         for (int i = 1; i < size; i++) { 
