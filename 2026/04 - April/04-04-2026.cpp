@@ -1,7 +1,7 @@
 class Solution {
   public:
     vector<string> graycode(int n) {
-        // code here
+        // code here 
         const int size = 1 << n; 
           
         vector<string> result(size, string(n, '0'));
