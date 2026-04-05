@@ -2,7 +2,7 @@ class Solution {
   public:
     int totalWays(vector<int>& arr, int target) {
         //  code here
-        int n=arr.size();
+        int n=arr.size(); 
         map<int,map<int,int>> mp;
         mp[0][arr[0]]=1;
         mp[0][-arr[0]]=1;
