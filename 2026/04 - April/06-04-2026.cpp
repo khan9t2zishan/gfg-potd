@@ -1,6 +1,6 @@
 class Solution {  
   public:
-     
+      
     struct Node {
         int freq;
         int idx;
