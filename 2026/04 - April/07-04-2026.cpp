@@ -5,7 +5,7 @@ class Solution {
       int n = men.size();
 
         vector<vector<int>> rank(n, vector<int>(n));
-
+ 
         for (int w = 0; w < n; w++) {
             for (int pos = 0; pos < n; pos++) {
                 rank[w][women[w][pos]] = pos;
