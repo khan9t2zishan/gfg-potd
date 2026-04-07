@@ -2,7 +2,7 @@ class Solution {
   public:
     vector<int> stableMarriage(vector<vector<int>> &men, vector<vector<int>> &women) {
         // code here
-      int n = men.size();
+      int n = men.size(); 
 
         vector<vector<int>> rank(n, vector<int>(n));
  
