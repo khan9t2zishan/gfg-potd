@@ -2,7 +2,7 @@ class Solution {
   public:
     vector<int> intersection(vector<int>& a, vector<int>& b) {
         // code here
-        vector<int> ans;
+        vector<int> ans; 
         int i = 0, j = 0;
         int n = a.size(), m = b.size();
         while(i<n && j<m){
