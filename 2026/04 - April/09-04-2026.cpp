@@ -6,7 +6,7 @@ class Solution {
         int i = 0, j = 0;
         int n = a.size(), m = b.size();
         while(i<n && j<m){
-            if(a[i]==b[j]){
+            if(a[i]==b[j]){ 
                 if (ans.size()==0){
                     ans.push_back(a[i]);
                 }
