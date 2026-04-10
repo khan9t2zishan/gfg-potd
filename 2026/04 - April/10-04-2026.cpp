@@ -4,7 +4,7 @@ class Solution {
         // Code here
         int tempSmall = INT_MAX;
         int fSmall = INT_MAX;
-        int sSmall = INT_MAX;
+        int sSmall = INT_MAX; 
         
         for (int i = 0; i < arr.size(); i++) {
             if (arr[i] > sSmall) {
