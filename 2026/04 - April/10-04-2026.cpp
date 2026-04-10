@@ -7,7 +7,7 @@ class Solution {
         int sSmall = INT_MAX; 
         
         for (int i = 0; i < arr.size(); i++) {
-            if (arr[i] > sSmall) {
+            if (arr[i] > sSmall) { 
                 return {fSmall, sSmall, arr[i]};
             }
             else if (arr[i] > fSmall) {
