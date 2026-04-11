@@ -8,7 +8,7 @@ class Solution {
                 ans+=k++;
             }
             else{k=1;}
-        }
+        } 
         return ans;
     } 
 };
