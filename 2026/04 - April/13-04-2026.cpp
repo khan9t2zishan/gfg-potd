@@ -4,7 +4,7 @@ class Solution {
         // code here
            int n=num.size();
         bool is9 = true;
-        for(auto& x:num){
+        for(auto& x:num){ 
             if(x!=9){
                 is9 = false;
             }
