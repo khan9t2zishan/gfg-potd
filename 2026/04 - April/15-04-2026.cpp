@@ -5,7 +5,7 @@ class Solution {
         string ans;
         int i=0;
         while(i<s.size() && s[i]==' '){
-            i++;
+            i++; 
         }
         int j=s.size()-1;
         while(i<=j){
