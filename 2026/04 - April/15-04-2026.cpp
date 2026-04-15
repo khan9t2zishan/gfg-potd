@@ -7,7 +7,7 @@ class Solution {
         while(i<s.size() && s[i]==' '){
             i++; 
         }
-        int j=s.size()-1;
+        int j=s.size()-1
         while(i<=j){
             if(s[i]==' '){
                 ans+="%20";
