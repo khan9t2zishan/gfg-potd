@@ -2,7 +2,7 @@ class Solution {
   public:
     int Digit(char ch){
         if(ch-'0' >= 0 && ch-'0' <= 9){
-            return ch-'0';
+            return ch-'0'; 
         }
         return -1;
     }
