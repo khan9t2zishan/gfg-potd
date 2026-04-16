@@ -8,7 +8,7 @@ class Solution {
     }
     int myAtoi(string &s) {
         // code here
-        long int num = 0;
+        long int num = 0; 
         int sign = 1;
         for(int i=0; i<s.length(); i++){
             if(s[i] == '-' && num == 0) sign = -1;
