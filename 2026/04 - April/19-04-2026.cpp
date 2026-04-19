@@ -4,5 +4,5 @@ class Solution {
         // code here
       float a = float(log2(y)/log2(x));
       return pow(x,a)==y;
-    }
+    } 
 };
