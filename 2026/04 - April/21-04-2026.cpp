@@ -5,7 +5,7 @@ class Solution {
         while (b != 0) {
             int temp = a % b;
             a = b;
-            b = temp;
+            b = temp; 
         }
         return a;
     }
