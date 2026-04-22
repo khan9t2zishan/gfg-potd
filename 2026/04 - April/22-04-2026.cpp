@@ -4,7 +4,7 @@ class Solution {
         // code here
         vector<int> allSum;
         int n = arr.size();
-        allSum.push_back(arr[0]);
+        allSum.push_back(arr[0]); 
         for(int i=1;i<n;i++)
         {
             int sum = arr[i]+allSum[i-1];
