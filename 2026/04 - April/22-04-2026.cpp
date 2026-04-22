@@ -8,7 +8,7 @@ class Solution {
         for(int i=1;i<n;i++)
         {
             int sum = arr[i]+allSum[i-1];
-            allSum.push_back(sum);
+            allSum.push_back(sum); 
         }
         vector<int> result;
         int m = queries.size();
