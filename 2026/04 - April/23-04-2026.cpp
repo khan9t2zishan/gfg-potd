@@ -1,7 +1,7 @@
 class Solution {
   public:
     bool canSplit(vector<int>& arr) {
-        // code here
+        // code here 
         int sum = 0, bsum = 0;
         for(int &i:arr)sum+=i;
         for(int &i:arr){
