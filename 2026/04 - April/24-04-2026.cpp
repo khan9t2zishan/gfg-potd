@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int visibleBuildings(vector<int>& arr) {
+    int visibleBuildings(vector<int>& arr) { 
         // code here
         int n = arr.size();
         int maxheight = arr[0];
