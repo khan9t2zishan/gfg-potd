@@ -6,7 +6,7 @@ class Solution {
         stack<int>st;
         for(int i=0;i<n;i++){
             if(st.empty()){
-                st.push(arr[i]);
+                st.push(arr[i]); 
             }
             else{
                 int a=st.top();
