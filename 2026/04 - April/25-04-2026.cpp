@@ -3,7 +3,7 @@ class Solution {
     vector<int> reducePairs(vector<int>& arr) { 
         // code here
         int n=arr.size();
-        stack<int>st;
+        stack<int>st; 
         for(int i=0;i<n;i++){
             if(st.empty()){
                 st.push(arr[i]); 
