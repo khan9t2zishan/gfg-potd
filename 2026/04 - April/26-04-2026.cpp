@@ -8,7 +8,7 @@ class Solution {
         for(int i=0;i<a.size();i++){
             int num = a[i];
             
-            while(j<b.size() && b[j]<num)j++; //check iin second array
+            while(j<b.size() && b[j]<num)j++; //check iin second array 
             if(j==b.size())return ans;
             
             if(b[j]==num){ 
