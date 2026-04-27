@@ -1,1 +1,26 @@
+class Solution {
+  public:
+    int smallestSubstring(string s) {
+        // code here
+        int n=s.size();
+        int i=0, j=0, count=INT_MAX;
+        unordered_map<char,int> m;
+        
+        while(j < n){
+            m[s[j]]++;
+            
+            while(m.size()==3){
+                count = min(count, j-i+1);
+                m[s[i]]--;
+                if( m[s[i]]==0 ) m.erase(s[i]);
+                
+                i++;
+            }
+            
+            j++;
+        }
+        
+        return count==INT_MAX ? -1 : count;
+    }
+};
 
