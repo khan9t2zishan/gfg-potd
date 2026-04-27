@@ -5,7 +5,7 @@ class Solution {
         int n=s.size();
         int i=0, j=0, count=INT_MAX;
         unordered_map<char,int> m;
-        
+         
         while(j < n){
             m[s[j]]++;
             
