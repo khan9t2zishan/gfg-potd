@@ -9,7 +9,7 @@ class Solution {
         while(j < n){
             m[s[j]]++;
             
-            while(m.size()==3){
+            while(m.size()==3){ 
                 count = min(count, j-i+1);
                 m[s[i]]--;
                 if( m[s[i]]==0 ) m.erase(s[i]);
