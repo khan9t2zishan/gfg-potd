@@ -1,7 +1,7 @@
 class Solution {
   public:
     int longestSubstr(string& s, int k) {
-        // code here
+        // code here 
         int ans = 0, n = s.size();
         for(char c='A'; c<='Z'; c++) {
             int i=0, j=0, temp = k;
