@@ -5,7 +5,7 @@ class Solution {
         int ans = 0, n = s.size();
         for(char c='A'; c<='Z'; c++) {
             int i=0, j=0, temp = k;
-            while(j<n && i<=j) {
+            while(j<n && i<=j) { 
                 if(s[j]!=c && temp==0) {
                     while(s[i]==c) i++;
                     i++;
