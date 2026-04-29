@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     int minSwaps(vector<int>& arr) {
         // code here
         int count=0,n=arr.size(); 
