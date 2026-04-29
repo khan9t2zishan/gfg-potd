@@ -7,7 +7,7 @@ class Solution {
         for(auto i:arr)if(i==1)count++;
         
         if(count==0)return -1;
-        if(count==1)return 0;
+        if(count==1)return 0; 
         
         int countZero=0;
         for(int i=0;i<count;i++)if(arr[i]==0)countZero++;
