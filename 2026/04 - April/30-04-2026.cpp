@@ -2,7 +2,7 @@ class Solution {
   public:
     bool isMaxHeap(vector<int> &arr) {
         // code here
-        int n = arr.size();
+        int n = arr.size(); 
         int mid = n / 2;
         
         for (int i=0; i<mid; i++) {
