@@ -7,7 +7,7 @@ class Solution {
         if ((n & (n - 1)) != 0) return -1;
         
         int position = 1;
-        
+      
         while (n > 0) {
             if (n & 1) return position;
             
