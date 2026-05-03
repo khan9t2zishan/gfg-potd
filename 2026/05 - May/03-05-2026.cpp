@@ -2,7 +2,7 @@ class Solution {
   public:
     bool static comp(pair<int, int> &a, pair<int, int> &b){
         int x=__builtin_popcount(a.first);
-        int y=__builtin_popcount(b.first);
+        int y=__builtin_popcount(b.first); 
         if(x>y) return true;
         else if(x==y) return a.second<b.second;
         else return false;
