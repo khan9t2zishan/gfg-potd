@@ -5,7 +5,7 @@ class Solution {
     vector<int> bits; 
     bits.reserve(32);
     
-    // Getting binary representation
+    // Getting binary representation 
     while(n > 0) {
         (n&1) ? bits.push_back(1) : bits.push_back(0);
         n >>= 1;
