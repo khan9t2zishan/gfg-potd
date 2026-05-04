@@ -2,7 +2,7 @@ class Solution {
   public:
     bool isBinaryPalindrome(int n) {
         // code here
-    vector<int> bits;
+    vector<int> bits; 
     bits.reserve(32);
     
     // Getting binary representation
