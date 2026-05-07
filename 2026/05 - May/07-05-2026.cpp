@@ -2,7 +2,7 @@
 Definition for Node
 struct Node
 {
-    int data;
+    int data; 
     Node* left;
     Node* right;
 
