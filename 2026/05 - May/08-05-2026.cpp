@@ -2,7 +2,7 @@ class Solution {
 	public:
 	unordered_set<string> mp;
 	bool isvalid(string &s) {
-		
+		 
 		int cnt = 0;
 		
 		for (char ch : s) {
