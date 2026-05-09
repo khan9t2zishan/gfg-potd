@@ -7,7 +7,7 @@ class Solution {
         for (int i = 0; i < size; i++) {
             
             int pivot = i;
-            
+             
             for (int j = i; j < size; j++) {
                 if (abs(mat[j][i]) > 1e-9) {
                     pivot = j;
