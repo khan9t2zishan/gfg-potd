@@ -2,7 +2,7 @@ class Solution {
   public:
        long long determinant(vector<vector<double>>& mat, int size) {
         
-        double det = 1;
+        double det = 1; 
         
         for (int i = 0; i < size; i++) {
             
