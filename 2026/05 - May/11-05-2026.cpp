@@ -1,5 +1,5 @@
 class Solution {
-	public:
+	public: 
 	bool isPalindrome(string &s, int left, int right) {
 		
 		while (left < right) {
