@@ -4,7 +4,7 @@ class Solution {
         visited[node] = 1;
         
         for (int neighbor : adj[node]) {
-            if (!visited[neighbor]) { 
+            if (!visited[neighbor]) {  
                 dfs(neighbor, adj, visited);
             }
         }
