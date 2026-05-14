@@ -1,6 +1,6 @@
 class Solution {
   public:
-    void computeLPSArray(vector<int>& pat, vector<int>& lps) {
+    void computeLPSArray(vector<int>& pat, vector<int>& lps) { 
          
         int m = pat.size();
 
