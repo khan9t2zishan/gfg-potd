@@ -2,7 +2,7 @@ class Solution {
 	public:
 	int optimalKeys(int n) {
 		int dp[n + 1];
-		for (int i = 0; i <= n; i++) 
+		for (int i = 0; i <= n; i++)  
 			dp[i] = i;
 		for (int i = 3; i <= n; i++) {
 			int mp = 2;
