@@ -2,7 +2,7 @@ class Solution {
 	public:
 	int findSmallest(vector<int> &arr) {
 		// code here.
-		sort(arr.begin(), arr.end());
+		sort(arr.begin(), arr.end()); 
 		
 		long long smallestMissing = 1;
 		
