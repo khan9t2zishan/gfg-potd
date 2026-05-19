@@ -1,6 +1,6 @@
 class Solution {
 	public:
-	int minSteps(vector<int>& arr, int start, int end) {
+	int minSteps(vector<int>& arr, int start, int end) { 
 		// code here 
 		if (start == end)
 			return 0;
