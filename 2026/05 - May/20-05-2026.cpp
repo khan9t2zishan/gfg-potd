@@ -4,7 +4,7 @@ class Solution {
 		// code here
 		map<int, int>mpp;
 		int r = 0, n = arr.size();
-		while (r<n - 1) {
+		while (r<n - 1) { 
 			if (arr[r] != 0) {
 				if (target%arr[r] == 0) {
 					mpp[target/arr[r]] = 1;
