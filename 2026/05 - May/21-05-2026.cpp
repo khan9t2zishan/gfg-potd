@@ -1,6 +1,6 @@
 class Solution {
 	public:
-	bool isBitSet(int n) {
+	bool isBitSet(int n) { 
 		// code here
 		if (n == 0) {
 			return false;
