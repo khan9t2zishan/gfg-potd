@@ -5,7 +5,7 @@ class Solution {
              vector<vector<int>>& vis,
              int n, int m) {
         
-        vis[row][col] = 1;
+        vis[row][col] = 1; 
         
         int dr[] = {-1, 1, 0, 0};
         int dc[] = {0, 0, -1, 1};
