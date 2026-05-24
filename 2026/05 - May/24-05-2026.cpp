@@ -1,6 +1,6 @@
 class Solution {
 	public:
-	int coin(vector<int> &arr) {
+	int coin(vector<int> &arr) { 
 		int i = 0;
 		int j = arr.size() - 1;
 		
