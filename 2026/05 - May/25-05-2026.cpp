@@ -2,7 +2,7 @@ class Solution {
   public:
     bool checkElements(int start, int end, vector<int> &arr) {
         // code here
-        int n=arr.size();
+        int n=arr.size(); 
         sort(arr.begin(), arr.end());
         
         int x=start;
