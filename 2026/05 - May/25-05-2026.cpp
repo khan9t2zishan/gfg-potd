@@ -6,7 +6,7 @@ class Solution {
         sort(arr.begin(), arr.end());
         
         int x=start;
-        
+         
         for(int i=0; i<n; i++){
             if(x<arr[i]) return false;
             else if(x==arr[i]){
