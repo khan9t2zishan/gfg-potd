@@ -1,7 +1,7 @@
 class Solution { 
 	public:
 	int minToggle(vector<int>& arr) {
-		// code here
+		// code here 
 		int rightZeros = 0;
 		
 		for (int num : arr) {
