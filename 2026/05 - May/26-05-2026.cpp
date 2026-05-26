@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
 	public:
 	int minToggle(vector<int>& arr) {
 		// code here
