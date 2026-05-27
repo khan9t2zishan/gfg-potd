@@ -5,7 +5,7 @@ class Solution {
      int n=s.length(); 
         int flg=0; 
         for(int i=0;i<n;i++){
-            if(s[i]=='1'){ 
+            if(s[i]=='1'){  
                 if(i-x>flg){
                     return 0;
                 } 
