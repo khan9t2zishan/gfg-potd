@@ -3,7 +3,7 @@ class Solution {
     bool wifiRange(string &s, int x) {
         // code here
      int n=s.length(); 
-        int flg=0;
+        int flg=0; 
         for(int i=0;i<n;i++){
             if(s[i]=='1'){ 
                 if(i-x>flg){
