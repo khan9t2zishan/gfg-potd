@@ -5,7 +5,7 @@ public:
     Node* left, right;
     Node(int item)
     {
-        data = item;
+        data = item; 
         left = nullptr;
         right = nullptr;
     }
