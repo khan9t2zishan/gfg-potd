@@ -7,7 +7,7 @@ public:
     {
         data = item; 
         left = nullptr;
-        right = nullptr;
+        right = nullptr; 
     }
 }
 */
