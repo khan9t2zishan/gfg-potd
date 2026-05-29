@@ -5,7 +5,7 @@ class Solution {
         int n = s.size(), mxSum = 9*n;
 		vector<vector<int>> dp(n + 1, vector<int>(mxSum + 1));
 		for (int i = 0; i <= mxSum; i++) {
-			dp[n][i] = 1;
+			dp[n][i] = 1; 
 		}
 		
 		for (int i = n - 1; i >= 0; i--) {
