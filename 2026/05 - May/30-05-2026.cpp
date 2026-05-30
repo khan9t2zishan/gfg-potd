@@ -5,7 +5,7 @@ class Solution {
 		int n = (int)arr.size();
 		
 		arr[0] = arr[0] ^ arr[1];
-		int s = 0 ;
+		int s = 0 ; 
 		s = s ^ arr[0];
 		for (int i = 1; (i + 1)<n; i++)
 			{
