@@ -8,7 +8,7 @@ class Solution {
 		 
 		for (int i = 0; i<n; i++) {
 			if (arr[i]>0) {
-				pos = (pos*arr[i])%mod;
+				pos = (pos*arr[i])%mod; 
 				pCnt++;
 			} else if (arr[i]<0) {
 				neg = (neg*abs(arr[i]))%mod;
