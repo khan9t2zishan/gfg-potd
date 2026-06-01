@@ -5,7 +5,7 @@ class Solution {
 		int n = arr.size();
 		long long pos = 1, neg = 1;
 		int mini = 1e9, nCnt = 0, pCnt = 0, zero = 0, mod = 1e9 + 7;
-		
+		 
 		for (int i = 0; i<n; i++) {
 			if (arr[i]>0) {
 				pos = (pos*arr[i])%mod;
