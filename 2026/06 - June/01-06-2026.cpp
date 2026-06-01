@@ -1,6 +1,6 @@
 class Solution {
 	public:
-	int findMaxProduct(vector<int>& arr) {
+	int findMaxProduct(vector<int>& arr) { 
 		// code here
 		int n = arr.size();
 		long long pos = 1, neg = 1;
