@@ -2,7 +2,7 @@ class Solution {
   public:
     vector<int> freqInRange(vector<int>& arr, vector<vector<int>>& queries) {
         // code here
-        unordered_map<int, vector<int>> mp;
+        unordered_map<int, vector<int>> mp; 
         for(int i=0; i<arr.size(); i++){
             mp[arr[i]].push_back(i);
         }
