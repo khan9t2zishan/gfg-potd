@@ -2,7 +2,7 @@ class Solution {
 	public:
 	int maxSubstring(string &s) {
 		// code here
-		int n = s.length();
+		int n = s.length(); 
 		int maxSum = -1;
 		int currSum = 0;
 		
