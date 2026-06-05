@@ -14,7 +14,7 @@ class Solution {
 		if (k >= n)
 			return "-1";
 		
-		stack<int> st;
+		stack<int> st; 
 		
 		for (auto& i: s) {
 			while (!st.empty() && k > 0 && st.top() > i) {
