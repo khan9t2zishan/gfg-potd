@@ -4,7 +4,7 @@ class Solution {
 		// code here
 		// 1 place where white is placed
 		const int total = (n * m) - 1;
-		int ans = 0;
+		int ans = 0; 
 		array<int, 8> x = {-2, -2, 2, 2, -1, 1, -1, 1};
 		array<int, 8> y = {-1, 1, -1, 1, -2, -2, 2, 2};
 		
