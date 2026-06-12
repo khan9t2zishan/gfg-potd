@@ -1,5 +1,5 @@
 class Solution {
-	public:
+	public: 
 	bool kSubstr(string &s, int k) {
 		// code here
 		int n = s.length();
