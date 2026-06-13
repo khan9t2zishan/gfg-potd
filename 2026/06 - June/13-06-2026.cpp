@@ -3,7 +3,7 @@ class Solution{
 	int mod = 1000000007;
 	long long inv(long long int r){
 	    if(r==1) return 1;
-	    return (mod-((mod/r)*inv(mod%r))%mod+mod)%mod;
+	    return (mod-((mod/r)*inv(mod%r))%mod+mod)%mod;  
 	}
 	int computeValue(int n)
 	{
