@@ -1,6 +1,6 @@
 class Solution {
 	public:
-	int minimumCost(vector<int> &cost, int w) { 
+	int minimumCost(vector<int> &cost, int w) {  
 		// code here
 		const int INF = 1e9;
 		
