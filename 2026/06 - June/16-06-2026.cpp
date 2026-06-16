@@ -5,7 +5,7 @@ class Solution {
 		vector<int> ans;
 		int xr = 0;
 		ans.push_back(0);
-		
+		 
 		for (auto &q : queries) {
 			if (q[0] == 0)
 				ans.push_back(q[1] ^ xr);
