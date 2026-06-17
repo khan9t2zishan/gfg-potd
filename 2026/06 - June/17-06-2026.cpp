@@ -1,4 +1,4 @@
-class Solution {
+class Solution { 
   public:
     std::vector<int> dp;
 	
