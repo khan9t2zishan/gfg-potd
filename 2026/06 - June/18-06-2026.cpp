@@ -2,7 +2,7 @@ class Solution {
   public:
     int findCoverage(vector<vector<int>>& mat) {
         // code here 
-        int m = mat.size(), n = mat[0].size(), total = 0;
+        int m = mat.size(), n = mat[0].size(), total = 0; 
         vector<bool> up(n, false), left(m, false),
         right(m, false), down(n, false);
         
