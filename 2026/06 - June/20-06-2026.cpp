@@ -2,7 +2,7 @@ class Solution {
 	public:
 	int getLastDigit(string& a, string& b) {
 		// code here
-		if (b == "0") {
+		if (b == "0") { 
 			return 1;
 		}
 		int base = a[a.length() - 1]-'0';
