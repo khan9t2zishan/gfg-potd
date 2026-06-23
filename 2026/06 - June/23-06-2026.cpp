@@ -1,7 +1,7 @@
 class Solution {
 	public:
 	int maxPeopleDefeated(int p) {
-		// Code Here
+		// Code Here 
 		int start = 1;
 		int end = 1000;
 		int ans = 0;
