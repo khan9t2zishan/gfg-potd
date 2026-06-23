@@ -2,7 +2,7 @@ class Solution {
 	public:
 	int maxPeopleDefeated(int p) {
 		// Code Here 
-		int start = 1;
+		int start = 1; 
 		int end = 1000;
 		int ans = 0;
 		while (start <= end) {
