@@ -6,7 +6,7 @@
         
         if (i >= n || j >= n || mat[i][j] == 0) {
             return false;
-        }
+        } 
         
         ans[i][j] = 1;
         int jumps = mat[i][j];
