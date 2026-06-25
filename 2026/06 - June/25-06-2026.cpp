@@ -8,7 +8,7 @@ class Solution {
         }
         
         for(int i=1;i<=9;i++){
-            
+             
             if(i<=prev) continue;
             
             num+=(i*pow(10,n--));
