@@ -2,7 +2,7 @@ class Solution {
   public:
     void solve(int n ,int num,vector<int>&ans, int prev)
     {
-        if(n==0){
+        if(n==0){ 
             ans.push_back(num/10); 
             return;
         }
