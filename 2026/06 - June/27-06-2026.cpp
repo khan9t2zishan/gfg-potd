@@ -4,7 +4,7 @@ class Solution {
 		// code here.
 		const int MOD = 1000000007;
 		
-		vector<long long> dp(n + 1, 0);
+		vector<long long> dp(n + 1, 0); 
 		
 		dp[0] = 1;
 		
