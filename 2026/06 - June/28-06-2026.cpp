@@ -4,7 +4,7 @@ class Solution {
 	int mod = 1e9 + 7;
 	 
 	vector<vector<vector<int>> > dp;
-	
+	 
 	int solve(int n, int k, int sz, char prev, int count) {
 		if (sz >= n)
 			return (count == k);
