@@ -4,7 +4,7 @@ class Solution {
 		// code here 
 		int n = a.size(), m = b.size();
 		
-		const int NEG = -1e9;
+		const int NEG = -1e9; 
 		
 		vector<int> dp(m + 1, NEG);
 		
