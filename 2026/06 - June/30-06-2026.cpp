@@ -4,7 +4,7 @@ class Solution {
 		// code here
 		vector<int> P;
 		for (int x : a) if (binary_search(b.begin(), b.end(), x))
-			P.push_back(x); 
+			P.push_back(x);  
 		
 		vector<int> lis;
 		for (int x : P) {
