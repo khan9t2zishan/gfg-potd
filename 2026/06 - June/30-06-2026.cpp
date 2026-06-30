@@ -5,7 +5,7 @@ class Solution {
 		vector<int> P;
 		for (int x : a) if (binary_search(b.begin(), b.end(), x))
 			P.push_back(x);  
-		
+		 
 		vector<int> lis;
 		for (int x : P) {
 			auto it = lower_bound(lis.begin(), lis.end(), x);
