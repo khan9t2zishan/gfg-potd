@@ -5,7 +5,7 @@ class Solution {
 		if (arr.size() > k)
 			return true;
 		
-		vector<bool> dp(k, false);
+		vector<bool> dp(k, false); 
 		
 		for (int num : arr) {
 			int rem = num % k;
