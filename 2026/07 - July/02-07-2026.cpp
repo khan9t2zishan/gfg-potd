@@ -1,6 +1,6 @@
 class Solution {
 	public:
-	bool divisibleByK(vector<int>& arr, int k) {
+	bool divisibleByK(vector<int>& arr, int k) { 
 		// code here
 		if (arr.size() > k)
 			return true;
