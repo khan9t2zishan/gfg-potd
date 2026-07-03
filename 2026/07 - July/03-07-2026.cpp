@@ -3,7 +3,7 @@ class Solution {
     int waysToIncreaseLCSBy1(string &s1, string &s2) {
         // code here
         int n = s1.size(), m = s2.size();
-
+ 
         vector<vector<int>> pref(n + 1, vector<int>(m + 1, 0));
 
         for (int i = 1; i <= n; i++) {
