@@ -2,7 +2,7 @@ class Solution {
 	public:
 	int countSubstring(string& s) {
 		// Code Here
-		int count = 0; 
+		int count = 0;  
 		vector<int>mp1(s.size()*2 + 5, 0), mp2(s.size() *2 + 5);
 		int ans = 0;
 		int m = s.size();
