@@ -3,7 +3,7 @@ class Solution {
 	int maxPathSum(vector<int> &a, vector<int> &b) {
 		// Code here
 		int i = 0;
-		int j = 0;
+		int j = 0; 
 		
 		int sumA = 0;
 		int sumB = 0;
