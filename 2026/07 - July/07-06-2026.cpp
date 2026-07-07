@@ -2,7 +2,7 @@ class Solution {
   public:
     int largestArea(int n, int m, vector<vector<int>> &arr) {
         // code here 
-        int k = arr.size();
+        int k = arr.size(); 
 		
 		vector<int> row(n, 0);
 		vector<int> col(m, 0);
