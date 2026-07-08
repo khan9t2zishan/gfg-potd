@@ -8,7 +8,7 @@ class Solution {
         vector<vector<bool>> reachP(n, vector<bool>(m, false));
         vector<vector<bool>> reachQ(n, vector<bool>(m, false));
 
-        int dr[4] = {1, -1, 0, 0};
+        int dr[4] = {1, -1, 0, 0}; 
         int dc[4] = {0, 0, 1, -1};
 
         auto dfs = [&](vector<pair<int, int>>& sources,
