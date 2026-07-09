@@ -4,7 +4,7 @@ class Solution {
 		// code here
 		vector<int>a(k, 0);
 		int ans = 0;
-		for (auto i :arr) {
+		for (auto i :arr) { 
 			i = i%k;
 			if (i)ans += a[k - i];
 			else
