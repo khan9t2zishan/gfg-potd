@@ -1,5 +1,5 @@
 class Solution {
-  public:
+  public: 
     int maxAmount(vector<int>& arr, int k) {
         // code here
           const int MOD = 1000000007;
