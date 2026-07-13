@@ -2,7 +2,7 @@ class Solution {
 	public:
 	int minOperations(vector<int> &b) {
 		// code here
-		const int MOD = 1000000007;
+		const int MOD = 1000000007; 
 		int n = b.size();
 		 
 		vector<int> vis(n, 0);
