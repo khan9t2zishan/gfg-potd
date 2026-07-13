@@ -4,7 +4,7 @@ class Solution {
 		// code here
 		const int MOD = 1000000007;
 		int n = b.size();
-		
+		 
 		vector<int> vis(n, 0);
 		
 		unordered_map<int, int> mxExp;
