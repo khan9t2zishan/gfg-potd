@@ -5,7 +5,7 @@ class Solution {
          int r = 1; 
         int count = 1; 
         int e = 0;
-        int ans = 1; 
+        int ans = 1;  
         int n = arr.size();
         
         for(int i=1;i<n;i++){
