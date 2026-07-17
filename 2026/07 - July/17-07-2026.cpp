@@ -2,7 +2,7 @@ class Solution {
   public:
     int maxDiffSubArrays(vector<int>& arr) {
         int n = arr.size();
-
+ 
         vector<int> leftMax(n), leftMin(n), rightMax(n), rightMin(n);
 
         int curr = arr[0];
