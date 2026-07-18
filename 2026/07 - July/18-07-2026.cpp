@@ -5,7 +5,7 @@ class Solution {
 		const int MOD = 1000000007;
 		
 		int rows = matrix.size();
-		
+		 
 		int cols = matrix[0].size();
 		
 		vector<vector<int>> suffixOnes(rows + 1, vector<int>(cols + 1));
