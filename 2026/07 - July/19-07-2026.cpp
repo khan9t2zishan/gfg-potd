@@ -4,7 +4,7 @@ class Solution {
 		// code here
 		int n = arr.size();
 		
-		vector<int> up(n);
+		vector<int> up(n); 
 		
 		vector<int> down(n);
 		
