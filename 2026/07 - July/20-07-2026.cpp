@@ -2,7 +2,7 @@ class Node{
     public:
     int count;
     vector<Node*>children;
-    
+     
     Node()
     {
         count = 0;
