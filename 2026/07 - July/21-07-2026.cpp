@@ -4,7 +4,7 @@ class Solution {
 		// code here
 		vector<int> best(26, -1);
 		
-		int ans = -1;
+		int ans = -1; 
 		
 		for (int i = (int)s.size() - 1; i >= 0; i--) {
 			
