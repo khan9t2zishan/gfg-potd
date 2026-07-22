@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int minDeletions(vector<int>& arr) {
+    int minDeletions(vector<int>& arr) { 
         // code here
         vector<int> lis;
 
