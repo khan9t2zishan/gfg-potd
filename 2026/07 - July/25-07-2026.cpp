@@ -4,7 +4,7 @@ class Solution {
         // code here
         int n = mat.size();
 		
-		vector<vector<int>> vec(n + 1, vector<int>(n + 1, 0));
+		vector<vector<int>> vec(n + 1, vector<int>(n + 1, 0)); 
 		
 		int res = INT_MIN;
 		
