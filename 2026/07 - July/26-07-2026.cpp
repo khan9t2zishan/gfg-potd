@@ -11,7 +11,7 @@ class Solution {
 				pq.push(-1*arr[i]);
 				i++;
 			}
-			vector<int>ds;
+			vector<int>ds; 
 			while (!pq.empty()) {
 				ds.push_back(-1*pq.top());
 				pq.pop();
