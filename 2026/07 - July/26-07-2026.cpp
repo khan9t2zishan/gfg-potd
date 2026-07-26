@@ -2,7 +2,7 @@ class Solution {
 	public:
 	vector<vector<int>> levelSort(vector<int>& arr) {
 		// code here
-		int n = arr.size();
+		int n = arr.size(); 
 		int cnt = 1;
 		vector<vector<int>> ans;
 		priority_queue<int>pq;
