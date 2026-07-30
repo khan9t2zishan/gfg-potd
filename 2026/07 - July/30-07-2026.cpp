@@ -2,7 +2,7 @@ class Solution {
   public:
     int maxSubsetXOR(vector<int> &arr) {
         // code here
-        int n = arr.size();
+        int n = arr.size(); 
 
         int index = 0;
 
