@@ -4,7 +4,7 @@ class Solution {
         // code here
         vector<int>v(n,0);
         int m = a.size();
-        int sum = 0;
+        int sum = 0; 
         int ans = 0;
         
         for(int i=0;i<m;i++){
