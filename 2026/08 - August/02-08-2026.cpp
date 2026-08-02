@@ -3,8 +3,8 @@ class Solution {
     int count(int n, int m) {
         // code here
         vector<int>curr(m+1 , 0) , next(m+1 , 0);
-        for(int i = 1 ; i<=m ; i++)curr[i]=1;
-        for(int i =1 ; i<n ; i++){
+        for(int i = 1 ; i<=m ; i++)curr[i]=1; 
+        for(int i =1 ; i<n ; i++){ 
             for(int i = 1 ; i<=m ; i++)next[i] = 0;
             for(int j = 1 ; j<=m ; j++){
                 next[j] += curr[j]; 
