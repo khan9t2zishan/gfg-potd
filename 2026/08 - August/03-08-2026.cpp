@@ -4,7 +4,7 @@ class Solution {
         // code here
         int n = arr.size();
         
-        vector<int> beh(n);
+        vector<int> beh(n); 
         beh[0] = arr[0];
         
         for(int i=1; i<n; i++){
