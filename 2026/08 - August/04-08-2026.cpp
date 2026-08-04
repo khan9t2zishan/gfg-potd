@@ -1,7 +1,7 @@
 class Solution {
   public:
     int countPairs(vector<int>& arr, int k) {
-        // code here
+        // code here 
         int n=arr.size();
         sort(arr.begin(), arr.end());
         
