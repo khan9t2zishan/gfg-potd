@@ -2,7 +2,7 @@ class Solution {
   public:
     int countMinOperations(vector<int>& arr) {
         // code here
-       int increments = 0;
+       int increments = 0; 
 
         int maxValue = 0;
 
