@@ -1,6 +1,6 @@
 class Solution {
   public:
-    int countFriendsPairings(int n) {
+    int countFriendsPairings(int n) { 
         // code here
         if(n == 1 || n == 2) return n;
         int pre1 = 1, pre2 = 2;
