@@ -7,7 +7,7 @@ class Solution {
         {
             if(!visited[v]) 
             {
-                DFS(v,adj,visited);
+                DFS(v,adj,visited); 
             }
         }
     }
