@@ -3,7 +3,7 @@ class Solution {
     int solve(int row, int col, int n, vector<vector<int>>& mat) {
         if (row == n - 1) return mat[row][col];
         if (dp[row][col] != -1) return dp[row][col];
-        
+         
         int result = 0;
         for (int j = 0; j < n; j++) {
             if (j != col)
