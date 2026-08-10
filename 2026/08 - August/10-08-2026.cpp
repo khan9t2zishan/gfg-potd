@@ -2,7 +2,7 @@ class Solution {
   public:
     int maxTask(vector<int>& h, vector<int>& l) {
         // code here
-        int n = h.size();
+        int n = h.size(); 
 
         int prev1 = max(h[0], l[0]);
 
