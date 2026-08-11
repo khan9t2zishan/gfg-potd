@@ -4,7 +4,7 @@ class Solution {
                               int k) {
         // code here
         int n = mat.size();
-        int m = mat[0].size();
+        int m = mat[0].size(); 
         vector<int>ans;
         vector<vector<int>>prefix_sum(n,vector<int>(m,0));
         for(int i=0;i<n;i++){
