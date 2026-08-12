@@ -4,7 +4,7 @@ class Solution {
         int n = grid.size();
         const long long MOD = 1000000007LL;
 
-        vector<long long> ways(n, 0);
+        vector<long long> ways(n, 0); 
 
         vector<int> best(n, -1);
 
