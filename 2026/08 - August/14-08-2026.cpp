@@ -2,7 +2,7 @@ class Solution {
   public:
     bool isPossible(vector<int>& arr, int s, int x) {
         // code here
-        vector<long long> nums; 
+        vector<long long> nums;  
 
         nums.push_back(s);
 
