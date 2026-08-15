@@ -3,7 +3,7 @@ class Solution {
     int countWithout(int n, int d) {
         // code here
         string s = to_string(n);
-
+ 
         long long dp[2][2] = {};
 
         dp[1][0] = 1;
