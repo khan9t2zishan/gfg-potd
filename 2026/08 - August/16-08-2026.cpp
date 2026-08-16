@@ -5,7 +5,7 @@ class Solution {
         int n = arr.size();
         int negcount = 0;
         int negmax = -11;
-        int mini = 11;
+        int mini = 11; 
         int ans = 1;
 
         for(int i=0;i<n;i++){
