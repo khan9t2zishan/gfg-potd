@@ -2,7 +2,7 @@ class Solution {
   public:
     int minThrows(int n, vector<int>& lad, vector<int>& sn) {
         // code here
-        int total = n * n;
+        int total = n * n; 
 
         vector<int> jump(total + 1, 0);
 
