@@ -4,7 +4,7 @@ class Solution {
         // code here
         int n = mat.size();
         int m = mat[0].size();
-
+ 
         if (mat[r][c] == '#') {
             return 0;
         }
