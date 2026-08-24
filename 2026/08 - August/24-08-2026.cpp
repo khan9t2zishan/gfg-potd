@@ -2,7 +2,7 @@ class Solution {
   public:
         long long power(long long base, long long exp, long long mod) {
             long long result = 1;
-
+ 
             while (exp > 0) {
                 if (exp & 1) {
                     result = (result * base) % mod;
