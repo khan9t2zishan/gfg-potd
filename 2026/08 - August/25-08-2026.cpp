@@ -1,7 +1,7 @@
 class Solution {
   public:
     int minMoves(vector<int>& arr) {
-        // code here
+        // code here 
         int n=arr.size();
         vector<int>pos(n, 0);
         for(int i=0; i<n; i++){
