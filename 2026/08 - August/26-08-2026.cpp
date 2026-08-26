@@ -7,7 +7,7 @@ class Solution {
         for (int i = 0; i < V - 1; i++) {
             for (auto &edge : edges) {
                 int u = edge[0];
-                int v = edge[1];
+                int v = edge[1]; 
                 int w = edge[2];
 
                 if (dist[u] + w < dist[v]) {
