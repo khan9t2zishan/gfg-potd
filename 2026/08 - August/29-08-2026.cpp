@@ -4,7 +4,7 @@ class Solution {
         // code here
         const int MOD = 1000000007;
 
-        vector<long long> dp(n, 0);
+        vector<long long> dp(n, 0); 
 
         for (char ch : s) {
             int digit = ch - '0';
