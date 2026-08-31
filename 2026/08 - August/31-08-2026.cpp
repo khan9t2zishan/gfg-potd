@@ -2,7 +2,7 @@ class Solution {
   public:
     int minCost(int n, int i, int d, int c) {
         // code here
-        vector<int> dp(n + 1, 0);
+        vector<int> dp(n + 1, 0); 
 
         dp[0] = 0;
 
