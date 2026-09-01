@@ -4,7 +4,7 @@ class Solution {
         // code here
         const long long MOD = 1000000007LL;
         long long ways = 1;
-        long long ans = 0;
+        long long ans = 0; 
 
         for (int len = 1; len <= n; ++len) {
             if (len % 2 == 1) {
