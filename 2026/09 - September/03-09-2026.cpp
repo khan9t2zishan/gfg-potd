@@ -4,7 +4,7 @@ class Solution {
         // code here
         long long keep = 0;
 
-        long long replace = 0;
+        long long replace = 0; 
 
         for (int i = 1; i < arr.size(); i++) {
             long long newKeep = max(
