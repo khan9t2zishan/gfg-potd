@@ -1,7 +1,7 @@
 class Solution {
   public:
     vector<vector<vector<int>>> dp;
-
+  
        int minCount(vector<int>& arr) {
            int n = arr.size();
 
