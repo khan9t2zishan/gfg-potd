@@ -4,7 +4,7 @@ class Solution {
         // code Here
        
        int temp = n;
-       int sum = 0;
+       int sum = 0; 
        vector<int>v;
 
        while(temp){
