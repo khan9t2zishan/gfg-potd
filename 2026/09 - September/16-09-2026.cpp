@@ -4,7 +4,7 @@ class Solution {
 		// Code here
 		int n = arr.size();
 		int result = 0;
-		int mid = n>> 1;
+		int mid = n>> 1; 
 		sort(arr.begin(), arr.begin() + mid);
 		sort(arr.begin() + mid, arr.end());
 		int right = mid;
