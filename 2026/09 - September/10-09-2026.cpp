@@ -5,7 +5,7 @@ class Solution {
         if (y % x != 0)
                    return 0;
 
-               int n = y / x;
+               int n = y / x; 
 
                int distinctPrimes = 0;
 
