@@ -6,7 +6,7 @@ class Solution {
 		if (n < m) {
 			swap(s1, s2);
 			swap(n, m);
-			swap(costS1, costS2);
+			swap(costS1, costS2); 
 		}
 		vector<int> prev(m + 1, 0), curr(m + 1, 0);
 		for (int i = 1; i <= n; i++) {
