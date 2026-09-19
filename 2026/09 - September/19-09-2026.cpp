@@ -4,7 +4,7 @@ class Solution {
 		// code here
 		int n = s1.size(), m = s2.size();
 		if (n < m) {
-			swap(s1, s2);
+			swap(s1, s2); 
 			swap(n, m);
 			swap(costS1, costS2); 
 		}
