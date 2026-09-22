@@ -3,7 +3,7 @@ class Solution {
 	string findLongestWord(string &s, vector<string> &d) {
 		// code here
 		int n = s.size(), m = d.size();
-		vector<vector<pair<int, int>> >arr(26);
+		vector<vector<pair<int, int>> >arr(26); 
 		for (int i = 0 ; i<m ; i++) {
 			arr[d[i][0]-'a'].push_back({i, 0});
 		}
