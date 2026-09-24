@@ -3,7 +3,7 @@ class Solution {
 	int maxStackHeight(vector<int> &r, vector<int> &h) {
 		// code here
 		int n = r.size();
-		vector<pair<int, int>> discs(n);
+		vector<pair<int, int>> discs(n); 
 		for (int i = 0; i < n; i++)
 			discs[i] = {r[i], h[i]};
 		sort(discs.begin(), discs.end(), [](const pair<int, int>& a, const pair<int, int>& b) {
