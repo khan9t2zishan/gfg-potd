@@ -7,7 +7,7 @@ class Solution {
 		while (b) {
 			int t = b;
 			b = a % b;
-			a = t;
+			a = t; 
 		}
 		return a;
 	}
