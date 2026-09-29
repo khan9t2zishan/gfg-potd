@@ -6,7 +6,7 @@ class Solution {
 
       bool check(int i,int j){
           return i>=0 && j>=0 && i<m && j<m;
-      }
+      } 
 
       int minStepToReachTarget(vector<int>& knightPos, vector<int>& targetPos, int n) {
           // Code here
